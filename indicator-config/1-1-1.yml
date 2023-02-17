@@ -23,7 +23,10 @@ graph_type: line
 indicator_name: global_indicators.1-1-1-title
 indicator_number: '1.1.1'
 national_geographical_coverage: ''
-page_content: ''
+page_content: 'Der SGB II-/SGB XII-Bezug zeigt an, wie hoch die Hilfebedürftigkeit innerhalb der Kommune ist. Im Vordergrund steht dabei die Belastung für die Betroffenen, die meist über eine rein finanzielle Belastung hinausgeht und auch psychische Belastungen einschließen kann. Im Enzkreis sollte es das Ziel sein, dass allen Hilfsbedürftigen die notwendige Unterstützung zukommt und alles dafür getan wird, dass die betroffenen Personen wieder selbst für ihren Lebensunterhalt aufkommen können.
+Der Indikator bildet die tatsächlichen LeistungsbezieherInnen ab. Eine Unschärfe beim Indikator ergibt sich durch die Dunkelziffer derjenigen Personen, die eigentlich leistungsberechtigt wären, jedoch keine Leistungen beantragen. Gründe dafür können Unwissenheit, Scham oder fehlendes Selbstvertrauen im Umgang mit Behörden sein. Dem wirkt der Enzkreis mit Hinweisen zur Beratung für die Antragstellung und Sozialarbeit entgegen.
+Der SGB II-/SGB XII-Bezug kann alleinig die Einkommensarmut abbilden. Allerdings wird Armut heute als ein multidimensionales Phänomen verstanden, das nicht alleinig auf das Einkommen oder die materielle Deprivation beschränkt ist. Der Armutsbegriff bezieht sich gleichermaßen auf soziale, politische, bildungsbezogene und kulturelle Armut. Oftmals fallen die verschiedenen Dimensionen von Armut zusammen.
+Der SGB II-/SGB XII-Bezug wird berechnet als Anteil der LeistungsbezieherInnen nach dem SGB II und SGB XII an der Bevölkerung.'
 permalink: ''
 precision: []
 reporting_status: notstarted
