@@ -12,36 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Year"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "percentage",
-                "number",
-                ""
-              ]
-            },
-            "title": "Units"
-          },
-          {
-            "name": "country of citizenship",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "afghanistan",
-                "iraq",
-                "iran",
-                "russian federation",
-                "syria",
-                "turkey",
-                ""
-              ]
-            },
-            "title": "country of citizenship"
           },
           {
             "name": "Value",

@@ -12,44 +12,11 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "percentage",
-                "1,000 tonnes",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "timeseries",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "recycling rate",
-                "material recovery",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "type of waste",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "municipal waste",
-                "total waste",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

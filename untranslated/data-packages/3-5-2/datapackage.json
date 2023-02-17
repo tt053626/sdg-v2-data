@@ -12,18 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "conversion",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "by un factors",
-                "by national factors",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

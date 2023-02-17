@@ -12,33 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Jahr"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "percentage",
-                "eur",
-                ""
-              ]
-            },
-            "title": "Units"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "manufacturing gross value added as a proportion of gdp",
-                "manufacturing gross value added as a proportion of total gross value added",
-                "manufacturing gross value added per capita",
-                ""
-              ]
-            },
-            "title": "Series"
           },
           {
             "name": "Value",

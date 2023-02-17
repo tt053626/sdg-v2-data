@@ -12,35 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Year"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "million eur",
-                "million usd, constant prices (2020)",
-                ""
-              ]
-            },
-            "title": "Units"
-          },
-          {
-            "name": "type of flow",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "oda (net disbursements)",
-                "oof (net disbursements)",
-                "officially supported export credits (net disbursements)",
-                "private sector flows at market terms (net disbursement)",
-                "private concessional flows (net disbursements)",
-                ""
-              ]
-            },
-            "title": "type of flow"
           },
           {
             "name": "Value",

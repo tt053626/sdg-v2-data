@@ -12,32 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "km²",
-                "percentage",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "timeseries",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "lakes and rivers permanent water area",
-                "lakes and rivers permanent water area as a proportion of total land area",
-                "wetlands area",
-                "wetlands area as a proportion of total land area",
-                "lakes and rivers permanent water area change (compared to 2015)",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

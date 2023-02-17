@@ -12,26 +12,12 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Jahr"
           },
           {
-            "name": "facilities",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "a) schools with access to electricity",
-                "e) schools with access to basic drinking water",
-                "f) schools with access to single-sex basic sanitation facilities",
-                "g) schools with access to basic handwashing facilities",
-                ""
-              ]
-            },
-            "title": "facilities"
-          },
-          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

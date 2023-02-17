@@ -12,39 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Year"
-          },
-          {
-            "name": "activities",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "copying or moving of files and folders",
-                "using copy or cut and paste tools to duplicate or move information on screen",
-                "writing code in a programming language",
-                "connecting and installing new devices, eg a printer or a modem",
-                "transferring files between computer and other devices",
-                "installing software or apps",
-                "creating electronic presentations with presentation software, including e.g. images, sound, video or charts",
-                "using spreadsheet`s advanced functions to organize and analyze data, such as sorting, filtering, using formulas, creating charts",
-                ""
-              ]
-            },
-            "title": "activities"
-          },
-          {
-            "name": "age group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "16 to under 75 years",
-                "16 to under 25 years",
-                "25 to under 65 years",
-                ""
-              ]
-            },
-            "title": "age group"
           },
           {
             "name": "Value",

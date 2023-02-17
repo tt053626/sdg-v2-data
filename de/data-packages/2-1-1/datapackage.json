@@ -12,37 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Jahr"
-          },
-          {
-            "name": "percentiles",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "p5",
-                "p10",
-                "p25",
-                "p50",
-                "p75",
-                "p90",
-                "p95",
-                ""
-              ]
-            },
-            "title": "percentiles"
-          },
-          {
-            "name": "sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "female",
-                "male",
-                ""
-              ]
-            },
-            "title": "sex"
           },
           {
             "name": "Value",

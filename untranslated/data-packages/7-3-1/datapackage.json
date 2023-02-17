@@ -12,18 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "megajoule per eur",
-                "2015 = 100",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

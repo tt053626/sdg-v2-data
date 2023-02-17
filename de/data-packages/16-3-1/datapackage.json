@@ -12,20 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Jahr"
-          },
-          {
-            "name": "timeseries",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "reporting rate for physical assault",
-                "reporting rate for robbery",
-                ""
-              ]
-            },
-            "title": "timeseries"
           },
           {
             "name": "Value",

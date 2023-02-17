@@ -12,32 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Year"
-          },
-          {
-            "name": "education level",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "b) at the end of primary education",
-                "c) at the end of lower secondary education",
-                ""
-              ]
-            },
-            "title": "education level"
-          },
-          {
-            "name": "subject",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "reading",
-                "mathematics",
-                ""
-              ]
-            },
-            "title": "subject"
           },
           {
             "name": "Value",

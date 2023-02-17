@@ -12,45 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Jahr"
-          },
-          {
-            "name": "timeseries",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "severely materially deprived persons",
-                "persons at risk of poverty or social exclusion",
-                ""
-              ]
-            },
-            "title": "timeseries"
-          },
-          {
-            "name": "age group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "17 years and younger",
-                "18 to under 65 years",
-                "65 years and older",
-                ""
-              ]
-            },
-            "title": "age group"
-          },
-          {
-            "name": "sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "female",
-                "male",
-                ""
-              ]
-            },
-            "title": "sex"
           },
           {
             "name": "Value",

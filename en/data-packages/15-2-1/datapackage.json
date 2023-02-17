@@ -12,34 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Year"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "million tonnes",
-                "percentage",
-                ""
-              ]
-            },
-            "title": "Units"
-          },
-          {
-            "name": "timeseries",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "above-ground biomass stock in forest",
-                "forest area located within protected areas",
-                "forest area net change rate",
-                "forest area under an independently verified forest management certification scheme",
-                ""
-              ]
-            },
-            "title": "timeseries"
           },
           {
             "name": "Value",

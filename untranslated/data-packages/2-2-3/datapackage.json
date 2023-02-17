@@ -12,22 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "age group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "15 years",
-                "15.5 years",
-                "16 years",
-                "16.5 years",
-                "17 years",
-                "17.5 years",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

@@ -12,18 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "technology",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "3g",
-                "lte",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

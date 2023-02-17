@@ -12,29 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "million eur",
-                "million usd, constant prices (2020)",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "timeseries",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "oda (gross disbursements) for scholarships",
-                "oda (gross disbursements) for imputed student costs",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

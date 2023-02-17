@@ -12,24 +12,12 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Jahr"
           },
           {
-            "name": "technology sectors",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "medium-high-tech",
-                "high-tech",
-                ""
-              ]
-            },
-            "title": "technology sectors"
-          },
-          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

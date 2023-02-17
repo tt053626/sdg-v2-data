@@ -12,32 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Jahr"
-          },
-          {
-            "name": "sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "female",
-                "male",
-                ""
-              ]
-            },
-            "title": "sex"
-          },
-          {
-            "name": "form of abuse",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "physical abuse",
-                "psychological abuse",
-                ""
-              ]
-            },
-            "title": "form of abuse"
           },
           {
             "name": "Value",

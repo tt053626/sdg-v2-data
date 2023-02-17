@@ -12,20 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Jahr"
-          },
-          {
-            "name": "timeseries",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "mobile penetration rate",
-                "private households with at least one mobile phone",
-                ""
-              ]
-            },
-            "title": "timeseries"
           },
           {
             "name": "Value",

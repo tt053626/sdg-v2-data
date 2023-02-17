@@ -12,20 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Jahr"
-          },
-          {
-            "name": "population",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "population total",
-                "poorest 40 percent of the population",
-                ""
-              ]
-            },
-            "title": "population"
           },
           {
             "name": "Value",

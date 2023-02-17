@@ -12,29 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "percentage",
-                "1,000 tonnes",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "municipal solid waste regularly collected and treated",
-                "municipal solid waste in total",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

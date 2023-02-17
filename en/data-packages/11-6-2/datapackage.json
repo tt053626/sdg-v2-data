@@ -12,44 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Year"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "micrograms per m³",
-                "million inhabitants",
-                ""
-              ]
-            },
-            "title": "Units"
-          },
-          {
-            "name": "fine particulate matter",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "pm10",
-                "pm2.5",
-                ""
-              ]
-            },
-            "title": "fine particulate matter"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "population weighted annual mean levels of fine particulate matter",
-                "population with excessive exposure to fine particulate matter",
-                ""
-              ]
-            },
-            "title": "Series"
           },
           {
             "name": "Value",

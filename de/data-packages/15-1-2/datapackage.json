@@ -12,24 +12,12 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Jahr"
           },
           {
-            "name": "timeseries",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "terrestrial and freshwater key biodiversity areas (kbas) covered by protected areas",
-                "terrestrial and freshwater areas covered by protected areas",
-                ""
-              ]
-            },
-            "title": "timeseries"
-          },
-          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

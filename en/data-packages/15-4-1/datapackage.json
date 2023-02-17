@@ -12,20 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Year"
-          },
-          {
-            "name": "timeseries",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "mountain key biodiversity areas (kbas) covered by protected areas",
-                "mountain regions, covered by protected areas",
-                ""
-              ]
-            },
-            "title": "timeseries"
           },
           {
             "name": "Value",

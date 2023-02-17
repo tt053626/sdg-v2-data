@@ -12,24 +12,11 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "thematic area",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "section 1: maternity care",
-                "section 2: contraception and family planning",
-                "section 3: comprehensive sexuality education and information",
-                "section 4: hiv and hpv",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

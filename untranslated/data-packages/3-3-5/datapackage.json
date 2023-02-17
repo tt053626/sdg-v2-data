@@ -12,40 +12,11 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "timeseries",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "people requiring interventions against neglected tropical diseases",
-                "inpatient treatment of neglected tropical diseases",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "type of disease",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "dengue",
-                "echinococcosis",
-                "leprosy",
-                "buruli ulcer",
-                "human african trypanosomiasis",
-                "leishmaniases",
-                "rabies",
-                "yaws",
-                "dracunculiasis",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

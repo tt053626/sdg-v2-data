@@ -12,18 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "timeseries",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "oda and oof (commitments) for aid for trade",
-                "oda and oof (gross disbursement) for aid for trade",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

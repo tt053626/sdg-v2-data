@@ -12,20 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "area2",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "(a) national education policies",
-                "(b) curricula",
-                "(c) teacher education",
-                "(d) student assessment",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

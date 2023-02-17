@@ -12,18 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "type of account",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "online accounts",
-                "current accounts",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

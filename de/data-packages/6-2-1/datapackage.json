@@ -12,32 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Jahr"
-          },
-          {
-            "name": "timeseries",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "population with (own) toilet",
-                "population with (own) bathtub or shower",
-                ""
-              ]
-            },
-            "title": "timeseries"
-          },
-          {
-            "name": "availability",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "yes",
-                "no",
-                ""
-              ]
-            },
-            "title": "availability"
           },
           {
             "name": "Value",

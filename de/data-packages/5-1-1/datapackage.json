@@ -12,26 +12,12 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Jahr"
           },
           {
-            "name": "area of law",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "area 1: overarching legal frameworks and public life",
-                "area 2: violence against women",
-                "area 3: employment and economic benefit",
-                "area 4: marriage and family",
-                ""
-              ]
-            },
-            "title": "area of law"
-          },
-          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

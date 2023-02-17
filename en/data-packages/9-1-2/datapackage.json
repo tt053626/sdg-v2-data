@@ -12,52 +12,12 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Year"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "million passenger-kilometre",
-                "million tonne-kilometres",
-                ""
-              ]
-            },
-            "title": "Units"
-          },
-          {
-            "name": "mode of transport",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "road transport",
-                "rail transport",
-                "air transport",
-                "motorised private transport",
-                "inland waterway transport",
-                "pipelines: crude oil",
-                ""
-              ]
-            },
-            "title": "mode of transport"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "passenger transport",
-                "freight transport",
-                ""
-              ]
-            },
-            "title": "Series"
-          },
-          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

@@ -12,20 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Year"
-          },
-          {
-            "name": "timeseries",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "proportion of flowing water with good ecological status for total phosphorous",
-                "proportion of groundwater mesuring points below the threshold value for nitrate",
-                ""
-              ]
-            },
-            "title": "timeseries"
           },
           {
             "name": "Value",

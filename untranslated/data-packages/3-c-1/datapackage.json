@@ -12,20 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "profession",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "pharmacists",
-                "medical doctors",
-                "nursing and midwifery personnel",
-                "dentists",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

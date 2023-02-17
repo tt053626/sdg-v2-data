@@ -12,18 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "timeseries",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "score for the implementation of unclos and ist two implementing agreements",
-                "score for the ratification of and accession to unclos and ist two implementing agreements",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

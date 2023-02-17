@@ -12,31 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "timeseries",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "dtp vaccination coverage at school entry",
-                "measles vaccination coverage at school entry",
-                "pneumococcal vaccination coverage at school entry",
-                "hpv vaccination coverages among 15 years old girls and boys",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "female",
-                "male",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

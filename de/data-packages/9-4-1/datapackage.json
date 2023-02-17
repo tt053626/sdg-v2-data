@@ -12,20 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Jahr"
-          },
-          {
-            "name": "timeseries",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "co₂ emissions per real gdp",
-                "co₂ emissions per gross value added (price adjusted) in manufacturing industries",
-                ""
-              ]
-            },
-            "title": "timeseries"
           },
           {
             "name": "Value",

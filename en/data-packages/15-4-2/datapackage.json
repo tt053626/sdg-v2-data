@@ -12,22 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Year"
-          },
-          {
-            "name": "classification",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "class 3 areas (elavation 2500-3500 meters)",
-                "class 4 areas (elavation 1500-2500 meters)",
-                "class 5 areas (elavation 1000-1500 meters)",
-                "class 6 areas (elavation 300-1000 meters)",
-                ""
-              ]
-            },
-            "title": "classification"
           },
           {
             "name": "Value",

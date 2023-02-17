@@ -12,20 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Jahr"
-          },
-          {
-            "name": "water use index",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "share of withdrawal in renewable water resources",
-                "share of withdrawal in renewable water resources (excluding cooling water)",
-                ""
-              ]
-            },
-            "title": "water use index"
           },
           {
             "name": "Value",

@@ -12,20 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Jahr"
-          },
-          {
-            "name": "timeseries",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "population using safely managed drinking water services",
-                "population connected to the public water supply system",
-                ""
-              ]
-            },
-            "title": "timeseries"
           },
           {
             "name": "Value",

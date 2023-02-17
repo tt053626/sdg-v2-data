@@ -12,30 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "million eur",
-                "million usd, constant prices (2020)",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "timeseries",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "oda (commitments) for biodiversity",
-                "oda (gross disbursements) for biodiversity",
-                "environmental protection expenditure",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

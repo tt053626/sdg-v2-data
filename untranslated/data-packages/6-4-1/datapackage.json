@@ -12,19 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "economic activity",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "agriculture, forestry and fishing",
-                "mimec",
-                "services",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",
