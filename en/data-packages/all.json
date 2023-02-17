@@ -3,42 +3,6 @@
   "title": "All indicators",
   "resources": [
     {
-      "path": "8-4/data.csv",
-      "name": "8-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "8-4"
-    },
-    {
       "path": "10-a-1/data.csv",
       "name": "10-a-1",
       "profile": "tabular-data-resource",
@@ -214,42 +178,6 @@
       "title": "Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan"
     },
     {
-      "path": "3-2/data.csv",
-      "name": "3-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "3-2"
-    },
-    {
       "path": "14-7-1/data.csv",
       "name": "14-7-1",
       "profile": "tabular-data-resource",
@@ -366,30 +294,6 @@
         ]
       },
       "title": "Number of countries with laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education"
-    },
-    {
-      "path": "17-3-5/data.csv",
-      "name": "17-3-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "17-3-5"
     },
     {
       "path": "15-7-1/data.csv",
@@ -644,42 +548,6 @@
       "title": "Ratio of land consumption rate to population growth rate"
     },
     {
-      "path": "15-5/data.csv",
-      "name": "15-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "15-5"
-    },
-    {
       "path": "5-c-1/data.csv",
       "name": "5-c-1",
       "profile": "tabular-data-resource",
@@ -811,42 +679,6 @@
       "title": "Proportion of time spent on unpaid domestic and care work, by sex, age and location"
     },
     {
-      "path": "3-8/data.csv",
-      "name": "3-8",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "3-8"
-    },
-    {
       "path": "11-5-1/data.csv",
       "name": "11-5-1",
       "profile": "tabular-data-resource",
@@ -881,42 +713,6 @@
         ]
       },
       "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population"
-    },
-    {
-      "path": "6-1/data.csv",
-      "name": "6-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "6-1"
     },
     {
       "path": "16-1-4/data.csv",
@@ -1258,78 +1054,6 @@
       "title": "Proportion of children and young people (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex"
     },
     {
-      "path": "8-2-a/data.csv",
-      "name": "8-2-a",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "8-2-a"
-    },
-    {
-      "path": "10-1-b/data.csv",
-      "name": "10-1-b",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "10-1-b"
-    },
-    {
       "path": "14-1-1/data.csv",
       "name": "14-1-1",
       "profile": "tabular-data-resource",
@@ -1429,42 +1153,6 @@
         ]
       },
       "title": "Mortality rate attributed to household and ambient air pollution"
-    },
-    {
-      "path": "7-1-a/data.csv",
-      "name": "7-1-a",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "7-1-a"
     },
     {
       "path": "3-8-1/data.csv",
@@ -1591,78 +1279,6 @@
       "title": "Proportion of local breeds classified as being at risk of extinction"
     },
     {
-      "path": "14-1/data.csv",
-      "name": "14-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "14-1"
-    },
-    {
-      "path": "12-1-b/data.csv",
-      "name": "12-1-b",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "12-1-b"
-    },
-    {
       "path": "1-1-1/data.csv",
       "name": "1-1-1",
       "profile": "tabular-data-resource",
@@ -1743,78 +1359,6 @@
       "title": "Number of countries with mechanisms in place to enhance policy coherence of sustainable development"
     },
     {
-      "path": "16-1/data.csv",
-      "name": "16-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "16-1"
-    },
-    {
-      "path": "11-6/data.csv",
-      "name": "11-6",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-6"
-    },
-    {
       "path": "10-7-3/data.csv",
       "name": "10-7-3",
       "profile": "tabular-data-resource",
@@ -1837,42 +1381,6 @@
         ]
       },
       "title": "Number of people who died or disappeared in the process of migration towards an international destinationi"
-    },
-    {
-      "path": "12-5/data.csv",
-      "name": "12-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "12-5"
     },
     {
       "path": "16-7-1/data.csv",
@@ -2163,42 +1671,6 @@
       "title": "Total official international support (official development assistance plus other official flows) to infrastructure"
     },
     {
-      "path": "9-1/data.csv",
-      "name": "9-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "9-1"
-    },
-    {
       "path": "12-4-2/data.csv",
       "name": "12-4-2",
       "profile": "tabular-data-resource",
@@ -2311,78 +1783,6 @@
       "title": "Progress towards sustainable forest management"
     },
     {
-      "path": "2-2/data.csv",
-      "name": "2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "2-2"
-    },
-    {
-      "path": "11-7-a/data.csv",
-      "name": "11-7-a",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-7-a"
-    },
-    {
       "path": "16-4-2/data.csv",
       "name": "16-4-2",
       "profile": "tabular-data-resource",
@@ -2405,42 +1805,6 @@
         ]
       },
       "title": "Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments"
-    },
-    {
-      "path": "10-3/data.csv",
-      "name": "10-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "10-3"
     },
     {
       "path": "11-2-1/data.csv",
@@ -2681,30 +2045,6 @@
       "title": "Proportion of persons who had at least one contact with a public official and who paid a bribe to a public official, or were asked for a bribe by those public officials, during the previous 12 months"
     },
     {
-      "path": "11-1-2/data.csv",
-      "name": "11-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-1-2"
-    },
-    {
       "path": "17-3-1/data.csv",
       "name": "17-3-1",
       "profile": "tabular-data-resource",
@@ -2837,42 +2177,6 @@
       "title": "Proportion of youth (aged 15–24 years) not in education, employment or training"
     },
     {
-      "path": "4-5/data.csv",
-      "name": "4-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "4-5"
-    },
-    {
       "path": "17-6-1/data.csv",
       "name": "17-6-1",
       "profile": "tabular-data-resource",
@@ -2977,78 +2281,6 @@
       "title": "Proportion of urban population living in slums, informal settlements or inadequate housing"
     },
     {
-      "path": "1-2-b/data.csv",
-      "name": "1-2-b",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "1-2-b"
-    },
-    {
-      "path": "13-2-b/data.csv",
-      "name": "13-2-b",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "13-2-b"
-    },
-    {
       "path": "3-4-2/data.csv",
       "name": "3-4-2",
       "profile": "tabular-data-resource",
@@ -3107,42 +2339,6 @@
         ]
       },
       "title": "Total per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage, by source of funding (public, private), type of heritage (cultural, natural) and level of government (national, regional, and local/municipal)"
-    },
-    {
-      "path": "15-1/data.csv",
-      "name": "15-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "15-1"
     },
     {
       "path": "12-1-1/data.csv",
@@ -3518,42 +2714,6 @@
       "title": "Labour share of GDP"
     },
     {
-      "path": "13-1-b/data.csv",
-      "name": "13-1-b",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "13-1-b"
-    },
-    {
       "path": "8-3-1/data.csv",
       "name": "8-3-1",
       "profile": "tabular-data-resource",
@@ -3698,42 +2858,6 @@
       "title": "Proportion of land that is degraded over total land area"
     },
     {
-      "path": "8-2-2/data.csv",
-      "name": "8-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "A",
-                "B",
-                ""
-              ]
-            },
-            "title": "Group"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "8-2-2"
-    },
-    {
       "path": "3-7-2/data.csv",
       "name": "3-7-2",
       "profile": "tabular-data-resource",
@@ -3768,42 +2892,6 @@
         ]
       },
       "title": "Adolescent birth rate (aged 10–14 years; aged 15–19 years) per 1,000 women in that age group"
-    },
-    {
-      "path": "4-6/data.csv",
-      "name": "4-6",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "4-6"
     },
     {
       "path": "16-2-3/data.csv",
@@ -4009,30 +3097,6 @@
         ]
       },
       "title": "Proportion of population living below the national poverty line, by sex and age"
-    },
-    {
-      "path": "11-2-2/data.csv",
-      "name": "11-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-2-2"
     },
     {
       "path": "3-9-3/data.csv",
@@ -4656,78 +3720,6 @@
       "title": "(a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments"
     },
     {
-      "path": "4-8/data.csv",
-      "name": "4-8",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "4-8"
-    },
-    {
-      "path": "10-4/data.csv",
-      "name": "10-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "10-4"
-    },
-    {
       "path": "3-b-3/data.csv",
       "name": "3-b-3",
       "profile": "tabular-data-resource",
@@ -4806,138 +3798,6 @@
         ]
       },
       "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies"
-    },
-    {
-      "path": "17-3-4/data.csv",
-      "name": "17-3-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "17-3-4"
-    },
-    {
-      "path": "10-2/data.csv",
-      "name": "10-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "10-2"
-    },
-    {
-      "path": "8-3-c/data.csv",
-      "name": "8-3-c",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "8-3-c"
-    },
-    {
-      "path": "12-1-a/data.csv",
-      "name": "12-1-a",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "12-1-a"
     },
     {
       "path": "11-b-1/data.csv",
@@ -5201,42 +4061,6 @@
       "title": "Proportion of children aged 24-59 months who are developmentally on track in health, learning and psychosocial well-being, by sexi"
     },
     {
-      "path": "7-2-a/data.csv",
-      "name": "7-2-a",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "7-2-a"
-    },
-    {
       "path": "8-7-1/data.csv",
       "name": "8-7-1",
       "profile": "tabular-data-resource",
@@ -5393,42 +4217,6 @@
       "title": "Total value of inward and outward illicit financial flows (in current United States dollars)"
     },
     {
-      "path": "16-3/data.csv",
-      "name": "16-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "16-3"
-    },
-    {
       "path": "5-3-1/data.csv",
       "name": "5-3-1",
       "profile": "tabular-data-resource",
@@ -5501,42 +4289,6 @@
       "title": "Amounts provided and mobilized in United States dollars per year in relation to the continued existing collective mobilization goal of the $100 billion commitment through to 2025"
     },
     {
-      "path": "8-3-2/data.csv",
-      "name": "8-3-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "A",
-                "B",
-                ""
-              ]
-            },
-            "title": "Group"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "8-3-2"
-    },
-    {
       "path": "7-2-1/data.csv",
       "name": "7-2-1",
       "profile": "tabular-data-resource",
@@ -5571,30 +4323,6 @@
         ]
       },
       "title": "Renewable energy share in the total final energy consumption"
-    },
-    {
-      "path": "7-3-3/data.csv",
-      "name": "7-3-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "7-3-3"
     },
     {
       "path": "15-8-1/data.csv",
@@ -5653,42 +4381,6 @@
       "title": "Proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien species"
     },
     {
-      "path": "7-2-b/data.csv",
-      "name": "7-2-b",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "7-2-b"
-    },
-    {
       "path": "12-c-1/data.csv",
       "name": "12-c-1",
       "profile": "tabular-data-resource",
@@ -5723,42 +4415,6 @@
         ]
       },
       "title": "Amount of fossil-fuel subsidies (production and consumption) per unit of GDP"
-    },
-    {
-      "path": "4-3/data.csv",
-      "name": "4-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "4-3"
     },
     {
       "path": "5-a-1/data.csv",
@@ -5846,42 +4502,6 @@
         ]
       },
       "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment"
-    },
-    {
-      "path": "17-1-a/data.csv",
-      "name": "17-1-a",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "17-1-a"
     },
     {
       "path": "16-1-2/data.csv",
@@ -6334,42 +4954,6 @@
       "title": "Proportion of schools offering basic services, by type of service"
     },
     {
-      "path": "13-1-c/data.csv",
-      "name": "13-1-c",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "13-1-c"
-    },
-    {
       "path": "13-1-2/data.csv",
       "name": "13-1-2",
       "profile": "tabular-data-resource",
@@ -6436,42 +5020,6 @@
         ]
       },
       "title": "Indicator of food price anomalies"
-    },
-    {
-      "path": "15-4/data.csv",
-      "name": "15-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "15-4"
     },
     {
       "path": "8-4-1/data.csv",
@@ -6725,42 +5273,6 @@
         ]
       },
       "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population"
-    },
-    {
-      "path": "8-5/data.csv",
-      "name": "8-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "8-5"
     },
     {
       "path": "8-2-1/data.csv",
@@ -7062,42 +5574,6 @@
       "title": "Proportion of small-scale industries with a loan or line of credit"
     },
     {
-      "path": "11-3/data.csv",
-      "name": "11-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-3"
-    },
-    {
       "path": "12-3-1/data.csv",
       "name": "12-3-1",
       "profile": "tabular-data-resource",
@@ -7132,78 +5608,6 @@
         ]
       },
       "title": "(a) Food loss index and (b) food waste index"
-    },
-    {
-      "path": "7-1-b/data.csv",
-      "name": "7-1-b",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "7-1-b"
-    },
-    {
-      "path": "11-2/data.csv",
-      "name": "11-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-2"
     },
     {
       "path": "16-3-2/data.csv",
@@ -7325,42 +5729,6 @@
         ]
       },
       "title": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP"
-    },
-    {
-      "path": "1-1/data.csv",
-      "name": "1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "1-1"
     },
     {
       "path": "10-6-1/data.csv",
@@ -7668,66 +6036,6 @@
       "title": "Installed renewable energy-generating capacity in developing countries (in watts per capita)"
     },
     {
-      "path": "7-2-2/data.csv",
-      "name": "7-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "7-2-2"
-    },
-    {
-      "path": "1-2-c/data.csv",
-      "name": "1-2-c",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "1-2-c"
-    },
-    {
       "path": "7-3-1/data.csv",
       "name": "7-3-1",
       "profile": "tabular-data-resource",
@@ -7764,42 +6072,6 @@
       "title": "Energy intensity measured in terms of primary energy and GDP"
     },
     {
-      "path": "4-2/data.csv",
-      "name": "4-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "4-2"
-    },
-    {
       "path": "16-6-1/data.csv",
       "name": "16-6-1",
       "profile": "tabular-data-resource",
@@ -7822,174 +6094,6 @@
         ]
       },
       "title": "Primary government expenditures as a proportion of original approved budget, by sector (or by budget codes or similar)"
-    },
-    {
-      "path": "17-3-3/data.csv",
-      "name": "17-3-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "17-3-3"
-    },
-    {
-      "path": "13-1-a/data.csv",
-      "name": "13-1-a",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "13-1-a"
-    },
-    {
-      "path": "8-2-b/data.csv",
-      "name": "8-2-b",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "8-2-b"
-    },
-    {
-      "path": "10-5/data.csv",
-      "name": "10-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "10-5"
-    },
-    {
-      "path": "11-7-b/data.csv",
-      "name": "11-7-b",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-7-b"
     },
     {
       "path": "2-2-2/data.csv",
@@ -8038,114 +6142,6 @@
         ]
       },
       "title": "Prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type (wasting and overweight)"
-    },
-    {
-      "path": "4-1/data.csv",
-      "name": "4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "4-1"
-    },
-    {
-      "path": "16-2/data.csv",
-      "name": "16-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "16-2"
-    },
-    {
-      "path": "10-1-c/data.csv",
-      "name": "10-1-c",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "10-1-c"
     },
     {
       "path": "1-5-3/data.csv",
@@ -8383,42 +6379,6 @@
       "title": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP"
     },
     {
-      "path": "8-2-d/data.csv",
-      "name": "8-2-d",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "8-2-d"
-    },
-    {
       "path": "10-4-2/data.csv",
       "name": "10-4-2",
       "profile": "tabular-data-resource",
@@ -8528,42 +6488,6 @@
       "title": "Participation rate in organized learning (one year before the official primary entry age), by sex"
     },
     {
-      "path": "13-1-d/data.csv",
-      "name": "13-1-d",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "13-1-d"
-    },
-    {
       "path": "10-1-1/data.csv",
       "name": "10-1-1",
       "profile": "tabular-data-resource",
@@ -8598,42 +6522,6 @@
         ]
       },
       "title": "Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population"
-    },
-    {
-      "path": "12-4/data.csv",
-      "name": "12-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "12-4"
     },
     {
       "path": "6-4-1/data.csv",
@@ -9102,42 +6990,6 @@
         ]
       },
       "title": "Financial Soundness Indicators"
-    },
-    {
-      "path": "3-9/data.csv",
-      "name": "3-9",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "3-9"
     },
     {
       "path": "15-4-2/data.csv",
@@ -9698,78 +7550,6 @@
       "title": "Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group"
     },
     {
-      "path": "3-3/data.csv",
-      "name": "3-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "3-3"
-    },
-    {
-      "path": "17-1-b/data.csv",
-      "name": "17-1-b",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "17-1-b"
-    },
-    {
       "path": "15-9-1/data.csv",
       "name": "15-9-1",
       "profile": "tabular-data-resource",
@@ -9804,78 +7584,6 @@
         ]
       },
       "title": "(a) Number of countries that have established national targets in accordance with or similar to Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011–2020 in their national biodiversity strategy and action plans and the progress r"
-    },
-    {
-      "path": "7-1-c/data.csv",
-      "name": "7-1-c",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "7-1-c"
-    },
-    {
-      "path": "5-1-a/data.csv",
-      "name": "5-1-a",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "5-1-a"
     },
     {
       "path": "16-6-2/data.csv",
@@ -9936,78 +7644,6 @@
         ]
       },
       "title": "Completion rate (primary education, lower secondary education, upper secondary education)"
-    },
-    {
-      "path": "3-4/data.csv",
-      "name": "3-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "3-4"
-    },
-    {
-      "path": "9-3/data.csv",
-      "name": "9-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "9-3"
     },
     {
       "path": "17-1-1/data.csv",
@@ -10083,78 +7719,6 @@
       "title": "(a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments"
     },
     {
-      "path": "7-2-c/data.csv",
-      "name": "7-2-c",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "7-2-c"
-    },
-    {
-      "path": "12-2/data.csv",
-      "name": "12-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "12-2"
-    },
-    {
       "path": "13-b-1/data.csv",
       "name": "13-b-1",
       "profile": "tabular-data-resource",
@@ -10191,30 +7755,6 @@
       "title": "Number of least developed countries and small island developing States with nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications"
     },
     {
-      "path": "3-1-3/data.csv",
-      "name": "3-1-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "3-1-3"
-    },
-    {
       "path": "11-7-1/data.csv",
       "name": "11-7-1",
       "profile": "tabular-data-resource",
@@ -10237,78 +7777,6 @@
         ]
       },
       "title": "Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities"
-    },
-    {
-      "path": "2-3/data.csv",
-      "name": "2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "2-3"
-    },
-    {
-      "path": "10-1-a/data.csv",
-      "name": "10-1-a",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "10-1-a"
     },
     {
       "path": "12-2-1/data.csv",
@@ -10819,42 +8287,6 @@
       "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population"
     },
     {
-      "path": "13-2-a/data.csv",
-      "name": "13-2-a",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "13-2-a"
-    },
-    {
       "path": "3-1-1/data.csv",
       "name": "3-1-1",
       "profile": "tabular-data-resource",
@@ -10877,42 +8309,6 @@
         ]
       },
       "title": "Maternal mortality ratio"
-    },
-    {
-      "path": "11-8/data.csv",
-      "name": "11-8",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-8"
     },
     {
       "path": "10-b-1/data.csv",
@@ -11113,42 +8509,6 @@
       "title": "Total amount of funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies"
     },
     {
-      "path": "11-1/data.csv",
-      "name": "11-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-1"
-    },
-    {
       "path": "4-3-1/data.csv",
       "name": "4-3-1",
       "profile": "tabular-data-resource",
@@ -11291,78 +8651,6 @@
         ]
       },
       "title": "Proportion of bodies of water with good ambient water quality"
-    },
-    {
-      "path": "8-3-b/data.csv",
-      "name": "8-3-b",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "8-3-b"
-    },
-    {
-      "path": "5-1-b/data.csv",
-      "name": "5-1-b",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "5-1-b"
     },
     {
       "path": "2-3-2/data.csv",
@@ -11583,151 +8871,6 @@
       "title": "Death rate due to road traffic injuries"
     },
     {
-      "path": "2-1/data.csv",
-      "name": "2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Gruppe",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Untergewicht",
-                "Normalgewicht",
-                "Übergewicht",
-                ""
-              ]
-            },
-            "title": "Gruppe"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "2-1"
-    },
-    {
-      "path": "11-7-c/data.csv",
-      "name": "11-7-c",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-7-c"
-    },
-    {
-      "path": "3-11/data.csv",
-      "name": "3-11",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "3-11"
-    },
-    {
-      "path": "3-6/data.csv",
-      "name": "3-6",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "3-6"
-    },
-    {
       "path": "3-d-2/data.csv",
       "name": "3-d-2",
       "profile": "tabular-data-resource",
@@ -11762,66 +8905,6 @@
         ]
       },
       "title": "Percentage of bloodstream infections due to selected antimicrobial-resistant organismsi"
-    },
-    {
-      "path": "13-2-3/data.csv",
-      "name": "13-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "13-2-3"
-    },
-    {
-      "path": "11-4/data.csv",
-      "name": "11-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-4"
     },
     {
       "path": "17-4-1/data.csv",
@@ -11993,42 +9076,6 @@
       "title": "Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)"
     },
     {
-      "path": "8-3-a/data.csv",
-      "name": "8-3-a",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "8-3-a"
-    },
-    {
       "path": "16-5-2/data.csv",
       "name": "16-5-2",
       "profile": "tabular-data-resource",
@@ -12051,90 +9098,6 @@
         ]
       },
       "title": "Proportion of businesses that had at least one contact with a public official and that paid a bribe to a public official, or were asked for a bribe by those public officials during the previous 12 months"
-    },
-    {
-      "path": "7-3-2/data.csv",
-      "name": "7-3-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "7-3-2"
-    },
-    {
-      "path": "11-2-3/data.csv",
-      "name": "11-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-2-3"
-    },
-    {
-      "path": "12-3/data.csv",
-      "name": "12-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "12-3"
     },
     {
       "path": "9-1-2/data.csv",
@@ -12310,114 +9273,6 @@
       "title": "International Health Regulations (IHR) capacity and health emergency preparedness"
     },
     {
-      "path": "3-10/data.csv",
-      "name": "3-10",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "3-10"
-    },
-    {
-      "path": "5-2/data.csv",
-      "name": "5-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "5-2"
-    },
-    {
-      "path": "8-1/data.csv",
-      "name": "8-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "8-1"
-    },
-    {
       "path": "11-b-2/data.csv",
       "name": "11-b-2",
       "profile": "tabular-data-resource",
@@ -12460,114 +9315,6 @@
         ]
       },
       "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies"
-    },
-    {
-      "path": "4-7/data.csv",
-      "name": "4-7",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "4-7"
-    },
-    {
-      "path": "3-7/data.csv",
-      "name": "3-7",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "3-7"
-    },
-    {
-      "path": "9-2/data.csv",
-      "name": "9-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "9-2"
     },
     {
       "path": "7-1-1/data.csv",
@@ -12703,78 +9450,6 @@
       "title": "Manufacturing value added as a proportion of GDP and per capita"
     },
     {
-      "path": "4-4/data.csv",
-      "name": "4-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "4-4"
-    },
-    {
-      "path": "17-2/data.csv",
-      "name": "17-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "17-2"
-    },
-    {
       "path": "14-6-1/data.csv",
       "name": "14-6-1",
       "profile": "tabular-data-resource",
@@ -12797,150 +9472,6 @@
         ]
       },
       "title": "Degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing"
-    },
-    {
-      "path": "3-5/data.csv",
-      "name": "3-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "3-5"
-    },
-    {
-      "path": "15-2/data.csv",
-      "name": "15-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "15-2"
-    },
-    {
-      "path": "3-1/data.csv",
-      "name": "3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "3-1"
-    },
-    {
-      "path": "1-2-a/data.csv",
-      "name": "1-2-a",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "1-2-a"
     },
     {
       "path": "5-2-1/data.csv",
@@ -12977,42 +9508,6 @@
         ]
       },
       "title": "Proportion of ever-partnered women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months, by form of violence and by age"
-    },
-    {
-      "path": "11-5/data.csv",
-      "name": "11-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-5"
     },
     {
       "path": "16-2-2/data.csv",
@@ -13134,78 +9629,6 @@
         ]
       },
       "title": "Degree of sustainable public procurement policies and action plan implementation"
-    },
-    {
-      "path": "15-3/data.csv",
-      "name": "15-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "15-3"
-    },
-    {
-      "path": "8-2-c/data.csv",
-      "name": "8-2-c",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Enzkreis",
-                "Land BW",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "8-2-c"
     },
     {
       "path": "5-2-2/data.csv",
