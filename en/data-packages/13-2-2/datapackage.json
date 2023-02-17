@@ -22,7 +22,7 @@
               "enum": [
                 "fLotte kommunal",
                 "fLotte nicht-kommunal",
-                "data.tot",
+                "Gesamt",
                 ""
               ]
             },

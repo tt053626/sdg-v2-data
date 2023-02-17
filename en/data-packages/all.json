@@ -36,7 +36,7 @@
           }
         ]
       },
-      "title": "8-4"
+      "title": "Anzahl der kommunalen Einrichtungen in Treptow-Köpenick die über ein gültiges Testat einer Gemeinwohl-Bilanz verfügen"
     },
     {
       "path": "3-2/data.csv",
@@ -72,7 +72,7 @@
           }
         ]
       },
-      "title": "3-2"
+      "title": "Relative Lärmbelastung in Treptow-Köpenick (Umweltgerechtigkeit)"
     },
     {
       "path": "17-3-5/data.csv",
@@ -204,7 +204,7 @@
           }
         ]
       },
-      "title": "15-5"
+      "title": "Red List Index"
     },
     {
       "path": "6-1-1/data.csv",
@@ -226,12 +226,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.saprobie",
-                "data.trophie",
+                "Saprobie",
+                "Trophie",
                 ""
               ]
             },
-            "title": "data.zustand"
+            "title": "Zustand"
           },
           {
             "name": "Value",
@@ -300,7 +300,7 @@
           }
         ]
       },
-      "title": "3-8"
+      "title": "Coverage of essential health services"
     },
     {
       "path": "11-5-1/data.csv",
@@ -322,14 +322,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.sied",
-                "data.wohn",
-                "data.indu",
-                "data.freiz",
+                "Siedlungsfläche",
+                "Wohnbaufläche",
+                "Industrie- und Gewerbefläche",
+                "Sport-, Freizeit- und Erholungsfläche",
                 ""
               ]
             },
-            "title": "data.area"
+            "title": "Fläche"
           },
           {
             "name": "Value",
@@ -374,7 +374,7 @@
           }
         ]
       },
-      "title": "6-1"
+      "title": "Saprobie (organische Belastung) und Trophie (Nährstoffbelastung) des Müggelsee"
     },
     {
       "path": "9-3-1/data.csv",
@@ -383,7 +383,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "iso8859-9",
       "schema": {
         "fields": [
           {
@@ -406,7 +406,7 @@
                 ""
               ]
             },
-            "title": "data.availability"
+            "title": "Verfügbarkeit"
           },
           {
             "name": "Value",
@@ -475,7 +475,7 @@
           }
         ]
       },
-      "title": "8-2-a"
+      "title": "Anzahl der Teilnehmenden am Mentoringprogramm"
     },
     {
       "path": "10-1-b/data.csv",
@@ -511,7 +511,7 @@
           }
         ]
       },
-      "title": "10-1-b"
+      "title": "Anteil mehrsprachiger Informationsmaterialien"
     },
     {
       "path": "14-1-1/data.csv",
@@ -533,20 +533,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.rlnull",
-                "data.rleins",
-                "data.rlzwei",
-                "data.rldrei",
-                "data.rlg",
-                "data.rlr",
-                "data.rlv",
-                "data.tlu",
-                "data.rld",
-                "data.rle",
+                "Ausgestorben oder verschollen",
+                "Vom Aussterben bedroht",
+                "Stark gefährdet",
+                "Gefährdet",
+                "Gefährdung unbekannten Ausmaßes",
+                "Extrem selten",
+                "Vorwarnliste",
+                "Ungefährdet",
+                "Daten unzureichend",
+                "Nicht bewertet",
                 ""
               ]
             },
-            "title": "data.redlistcat"
+            "title": "Gefährdungskategorien"
           },
           {
             "name": "Value",
@@ -591,7 +591,7 @@
           }
         ]
       },
-      "title": "7-1-a"
+      "title": "Noch zu definieren"
     },
     {
       "path": "14-1/data.csv",
@@ -627,7 +627,7 @@
           }
         ]
       },
-      "title": "14-1"
+      "title": "Rote Liste Einstufung der in Berliner Gewässern vorkommenden Fischarten"
     },
     {
       "path": "12-1-b/data.csv",
@@ -663,7 +663,7 @@
           }
         ]
       },
-      "title": "12-1-b"
+      "title": "Anzahl der Fortbildungen zu nachhaltiger und fairer Beschaffung pro Jahr"
     },
     {
       "path": "1-1-1/data.csv",
@@ -735,7 +735,7 @@
           }
         ]
       },
-      "title": "16-1"
+      "title": "Anzahl der partizipativen Veranstaltungen zum Thema SDGs des Bezirksamts Treptow-Köpenick pro Jahr"
     },
     {
       "path": "11-6/data.csv",
@@ -771,7 +771,7 @@
           }
         ]
       },
-      "title": "11-6"
+      "title": "Proportion of municipal solid waste collected and managed in controlled facilities out of total municipal waste generated, by cities"
     },
     {
       "path": "12-5/data.csv",
@@ -807,7 +807,7 @@
           }
         ]
       },
-      "title": "12-5"
+      "title": "National recycling rate, tons of material recycled"
     },
     {
       "path": "9-1/data.csv",
@@ -843,7 +843,7 @@
           }
         ]
       },
-      "title": "9-1"
+      "title": "Anzahl der Ladestationen für E-Autos"
     },
     {
       "path": "15-2-1/data.csv",
@@ -903,7 +903,7 @@
           }
         ]
       },
-      "title": "2-2"
+      "title": "global_indicators.2-2-title"
     },
     {
       "path": "11-7-a/data.csv",
@@ -939,7 +939,7 @@
           }
         ]
       },
-      "title": "11-7-a"
+      "title": "Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities"
     },
     {
       "path": "10-3/data.csv",
@@ -975,7 +975,7 @@
           }
         ]
       },
-      "title": "10-3"
+      "title": "Anzahl der Unternehmen in Treptow-Köpenick die eine Gemeinwohl-Bilanz durchführen"
     },
     {
       "path": "11-2-1/data.csv",
@@ -1064,7 +1064,7 @@
               "enum": [
                 "fLotte kommunal",
                 "fLotte nicht-kommunal",
-                "data.tot",
+                "Gesamt",
                 ""
               ]
             },
@@ -1209,7 +1209,7 @@
           }
         ]
       },
-      "title": "4-5"
+      "title": "Projektteilnehmer des Projektes \"Umweltschule in Europa - Internationale Nachhaltigkeitsschule\""
     },
     {
       "path": "17-6-1/data.csv",
@@ -1269,7 +1269,7 @@
               "enum": [
                 "fLotte kommunal",
                 "fLotte nicht-kommunal",
-                "data.tot",
+                "Gesamt",
                 ""
               ]
             },
@@ -1318,7 +1318,7 @@
           }
         ]
       },
-      "title": "1-2-b"
+      "title": "global_indicators.1-2-b-title"
     },
     {
       "path": "13-2-b/data.csv",
@@ -1354,7 +1354,7 @@
           }
         ]
       },
-      "title": "13-2-b"
+      "title": "Anzahl der kostenlos ausleihbaren Lastenräder im Bezirk"
     },
     {
       "path": "11-4-1/data.csv",
@@ -1376,27 +1376,27 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.fuss",
-                "data.rad",
-                "data.miv",
-                "data.offis",
+                "Zu Fuß",
+                "Fahrrad",
+                "Motorisierter Individualverkehr",
+                "Öffentlicher Verkehr",
                 ""
               ]
             },
-            "title": "data.maintransport"
+            "title": "Hauptverkehrsmittel"
           },
           {
             "name": "data.spatialtypes",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.binnen",
-                "data.quell",
-                "data.allewege",
+                "Binnenverkehr",
+                "Quell- u. Zielverkehr",
+                "Alle Wege",
                 ""
               ]
             },
-            "title": "data.spatialtypes"
+            "title": "Verkehrsströme"
           },
           {
             "name": "Value",
@@ -1441,7 +1441,7 @@
           }
         ]
       },
-      "title": "15-1"
+      "title": "Index Kommunale Klimaanpassung"
     },
     {
       "path": "12-1-1/data.csv",
@@ -1487,13 +1487,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.w",
-                "data.m",
-                "data.tot",
+                "Frauen",
+                "Männer",
+                "Gesamt",
                 ""
               ]
             },
-            "title": "data.sex"
+            "title": "Geschlecht"
           },
           {
             "name": "Value",
@@ -1598,7 +1598,7 @@
           }
         ]
       },
-      "title": "13-1-b"
+      "title": "Index Kommunaler Klimaschutz"
     },
     {
       "path": "8-3-1/data.csv",
@@ -1667,7 +1667,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "iso8859-9",
       "schema": {
         "fields": [
           {
@@ -1680,13 +1680,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.nat",
-                "data.protect",
-                "data.tot",
+                "Naturschutzgebiete",
+                "Landschaftsschutzgebiete",
+                "Gesamt",
                 ""
               ]
             },
-            "title": "data.area"
+            "title": "Fläche"
           },
           {
             "name": "Value",
@@ -1767,7 +1767,7 @@
           }
         ]
       },
-      "title": "4-6"
+      "title": "Proportion of population in a given age group achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills, by sex"
     },
     {
       "path": "17-2-1/data.csv",
@@ -1800,7 +1800,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "mac-roman",
       "schema": {
         "fields": [
           {
@@ -1813,13 +1813,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.repcaf",
-                "data.workshops",
-                "data.reuse",
+                "Repair Cafes",
+                "Gemeinschaftswerkstätten",
+                "ReUse Shops",
                 ""
               ]
             },
-            "title": "data.group"
+            "title": "Gruppe"
           },
           {
             "name": "Value",
@@ -1888,7 +1888,7 @@
           }
         ]
       },
-      "title": "4-8"
+      "title": "Completion rate (primary education, lower secondary education, upper secondary education)"
     },
     {
       "path": "10-4/data.csv",
@@ -1924,7 +1924,7 @@
           }
         ]
       },
-      "title": "10-4"
+      "title": "Gini-Koeffizient der Äquivalenzeinkommen in Treptow-Köpenick"
     },
     {
       "path": "17-3-4/data.csv",
@@ -1984,7 +1984,7 @@
           }
         ]
       },
-      "title": "10-2"
+      "title": "Anzahl der angebotenen Fortbildungen innerhalb der Verwaltung"
     },
     {
       "path": "8-3-c/data.csv",
@@ -2020,7 +2020,7 @@
           }
         ]
       },
-      "title": "8-3-c"
+      "title": "Anteil der Beschäftigten mit Einwanderungsgeschichte"
     },
     {
       "path": "12-1-a/data.csv",
@@ -2056,7 +2056,7 @@
           }
         ]
       },
-      "title": "12-1-a"
+      "title": "Anzahl der Fortbildungen zu nachhaltiger und fairer Beschaffung pro Jahr"
     },
     {
       "path": "3-3-2/data.csv",
@@ -2065,7 +2065,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "mac-roman",
       "schema": {
         "fields": [
           {
@@ -2078,13 +2078,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.pm",
-                "data.ozonst",
-                "data.ozonacht",
+                "Feinstaub (PM10)",
+                "Ozon Stundenwerte",
+                "Ozon 8-Stundenwerte (gleitend)",
                 ""
               ]
             },
-            "title": "data.luftg"
+            "title": "Luftgüte"
           },
           {
             "name": "Value",
@@ -2102,7 +2102,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "iso8859-1",
       "schema": {
         "fields": [
           {
@@ -2115,14 +2115,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.no",
-                "data.low",
-                "data.medium",
-                "data.high",
+                "Keine Werte",
+                "Gering",
+                "Mittel",
+                "Hoch",
                 ""
               ]
             },
-            "title": "data.noise"
+            "title": "Relative Lärmbelastung"
           },
           {
             "name": "Value",
@@ -2191,7 +2191,7 @@
           }
         ]
       },
-      "title": "7-2-a"
+      "title": "Anzahl der Photovoltaikanlagen auf bezirkseigenen Gebäuden"
     },
     {
       "path": "11-5-2/data.csv",
@@ -2213,15 +2213,15 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.erhol",
-                "data.kleing",
-                "data.friedh",
-                "data.strgr",
-                "data.sumgr",
+                "Grün- und Erholungsanlagen (inkl. Spielplätze)",
+                "Kleingärten",
+                "Friedhöfe",
+                "Straßengrün",
+                "Summe öffentliche Grünflächen",
                 ""
               ]
             },
-            "title": "data.gruen"
+            "title": "Öffentliche Grünflächen"
           },
           {
             "name": "Value",
@@ -2275,7 +2275,7 @@
                 ""
               ]
             },
-            "title": "data.bezirk"
+            "title": "Bezirksregion"
           },
           {
             "name": "Value",
@@ -2320,7 +2320,7 @@
           }
         ]
       },
-      "title": "16-3"
+      "title": "Anzahl der rassistisch, antisemitisch, homophob und rechtsextrem geprägter Vorfälle pro Jahr in Treptow-Köpenick"
     },
     {
       "path": "5-3-1/data.csv",
@@ -2464,7 +2464,7 @@
           }
         ]
       },
-      "title": "7-2-b"
+      "title": "Anzahl der Photovoltaikanlagen auf bezirkseigenen Gebäuden"
     },
     {
       "path": "4-3/data.csv",
@@ -2500,7 +2500,7 @@
           }
         ]
       },
-      "title": "4-3"
+      "title": "Anzahl der Volkshochschul (VHS) Kurse zum Themenbereich Globales lernen, 'Bildung für nachhaltige Entwicklung' (BNE) und SDGs"
     },
     {
       "path": "13-3-1/data.csv",
@@ -2522,14 +2522,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.tot",
-                "data.gewerbe",
-                "data.verkehr",
-                "data.haushalte",
+                "Gesamt",
+                "Verarbeitendes Gewerbe",
+                "Verkehr",
+                "Haushalte, Gewerbe, Handel und Dienstleistungen, übrige Verbraucher",
                 ""
               ]
             },
-            "title": "data.esek"
+            "title": "Emittentensektoren"
           },
           {
             "name": "Value",
@@ -2574,7 +2574,7 @@
           }
         ]
       },
-      "title": "17-1-a"
+      "title": "Anzahl der Aktivitäten mit Partnerstädten und Veranstaltungen zum Thema Städtepartnerschaften des Bezirksamts Treptow-Köpenick pro Jahr"
     },
     {
       "path": "3-1-2/data.csv",
@@ -2634,7 +2634,7 @@
           }
         ]
       },
-      "title": "13-1-c"
+      "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies"
     },
     {
       "path": "13-1-2/data.csv",
@@ -2656,12 +2656,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.ja",
-                "data.nein",
+                "Ja",
+                "Nein",
                 ""
               ]
             },
-            "title": "data.antworten"
+            "title": "Antworten"
           },
           {
             "name": "Value",
@@ -2706,7 +2706,7 @@
           }
         ]
       },
-      "title": "15-4"
+      "title": "Noch zu definieren"
     },
     {
       "path": "8-4-1/data.csv",
@@ -2802,7 +2802,7 @@
           }
         ]
       },
-      "title": "8-5"
+      "title": "Bruttostundenverdienste und Verdienstunterschiede zwischen Frauen und Männern (Gender Pay Gap unbereinigt)"
     },
     {
       "path": "8-2-1/data.csv",
@@ -2922,7 +2922,7 @@
           }
         ]
       },
-      "title": "11-3"
+      "title": "Anzahl Baumscheibenpatinnen und -paten"
     },
     {
       "path": "12-3-1/data.csv",
@@ -2982,7 +2982,7 @@
           }
         ]
       },
-      "title": "7-1-b"
+      "title": "Proportion of population with primary reliance on clean fuels and technology"
     },
     {
       "path": "11-2/data.csv",
@@ -3018,7 +3018,7 @@
           }
         ]
       },
-      "title": "11-2"
+      "title": "Anzahl der Abholstellen für Produkte Solidarischer Landwirtschaft (SoLaWi)"
     },
     {
       "path": "1-1/data.csv",
@@ -3054,7 +3054,7 @@
           }
         ]
       },
-      "title": "1-1"
+      "title": "global_indicators.1-1-title"
     },
     {
       "path": "5-1-1/data.csv",
@@ -3123,7 +3123,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "iso8859-9",
       "schema": {
         "fields": [
           {
@@ -3136,13 +3136,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.w",
-                "data.m",
+                "Frauen",
+                "Männer",
                 "Gender Pay Gap",
                 ""
               ]
             },
-            "title": "data.sex"
+            "title": "Geschlecht"
           },
           {
             "name": "Value",
@@ -3211,7 +3211,7 @@
           }
         ]
       },
-      "title": "1-2-c"
+      "title": "global_indicators.1-2-c-title"
     },
     {
       "path": "7-3-1/data.csv",
@@ -3241,7 +3241,7 @@
                 ""
               ]
             },
-            "title": "data.pow"
+            "title": "Leistungsklasse"
           },
           {
             "name": "Value",
@@ -3286,7 +3286,7 @@
           }
         ]
       },
-      "title": "4-2"
+      "title": "Anzahl angebotener Fortbildungen zu 'Bildung für nachhaltige Entwicklung' (BNE) für das pädagogische Personal an Schulen in Treptow-Köpenick"
     },
     {
       "path": "17-3-3/data.csv",
@@ -3346,7 +3346,7 @@
           }
         ]
       },
-      "title": "13-1-a"
+      "title": "Stellenanteile für das Klimaschutzmanagement"
     },
     {
       "path": "8-2-b/data.csv",
@@ -3382,7 +3382,7 @@
           }
         ]
       },
-      "title": "8-2-b"
+      "title": "Anzahl der Teilnehmenden am Mentoringprogramm"
     },
     {
       "path": "10-5/data.csv",
@@ -3418,7 +3418,7 @@
           }
         ]
       },
-      "title": "10-5"
+      "title": "Financial Soundness Indicators"
     },
     {
       "path": "11-7-b/data.csv",
@@ -3454,7 +3454,7 @@
           }
         ]
       },
-      "title": "11-7-b"
+      "title": "Proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months"
     },
     {
       "path": "4-1/data.csv",
@@ -3490,7 +3490,7 @@
           }
         ]
       },
-      "title": "4-1"
+      "title": "Anzahl der Schulen in Treptow-Köpenick die pro Jahr an der Lernkonferenz teilnehmen"
     },
     {
       "path": "16-2/data.csv",
@@ -3526,7 +3526,7 @@
           }
         ]
       },
-      "title": "16-2"
+      "title": "Anzahl der interreligiösen Veranstaltungen pro Jahr"
     },
     {
       "path": "10-1-c/data.csv",
@@ -3562,7 +3562,7 @@
           }
         ]
       },
-      "title": "10-1-c"
+      "title": "Anteil mehrsprachiger Informationsmaterialien"
     },
     {
       "path": "12-4-1/data.csv",
@@ -3584,9 +3584,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.keineB",
-                "data.inB",
-                "data.zert",
+                "Keine Bewerbung",
+                "In Bewerbung",
+                "Fairtrade-School zertifiziert",
                 ""
               ]
             },
@@ -3621,8 +3621,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.zertFG",
-                "data.zertK",
+                "Siegel Faire Gemeinde",
+                "Kein Siegel",
                 ""
               ]
             },
@@ -3671,7 +3671,7 @@
           }
         ]
       },
-      "title": "8-2-d"
+      "title": "Anzahl der Teilnehmenden am Mentoringprogramm"
     },
     {
       "path": "15-4-1/data.csv",
@@ -3743,7 +3743,7 @@
           }
         ]
       },
-      "title": "13-1-d"
+      "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies"
     },
     {
       "path": "10-1-1/data.csv",
@@ -3815,7 +3815,7 @@
           }
         ]
       },
-      "title": "12-4"
+      "title": "Anzahl der Fairtrade Schulen in Treptow-Köpenick"
     },
     {
       "path": "10-2-1/data.csv",
@@ -3897,13 +3897,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.low",
-                "data.medium",
-                "data.high",
+                "Gering",
+                "Mittel",
+                "Hoch",
                 ""
               ]
             },
-            "title": "data.air"
+            "title": "Relative Luftbelastung"
           },
           {
             "name": "Value",
@@ -3972,7 +3972,7 @@
           }
         ]
       },
-      "title": "3-9"
+      "title": "Mortality rate attributed to household and ambient air pollution"
     },
     {
       "path": "14-2-1/data.csv",
@@ -4131,13 +4131,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.public",
-                "data.private",
-                "data.tot",
+                "Öffentlicher Raum",
+                "Öffentlich zugänglich - auf privatem Grund",
+                "Gesamt",
                 ""
               ]
             },
-            "title": "data.standort"
+            "title": "Standort"
           },
           {
             "name": "Value",
@@ -4182,7 +4182,7 @@
           }
         ]
       },
-      "title": "3-3"
+      "title": "Relative Luftbelastung in Treptow-Köpenick (Umweltgerechtigkeit)"
     },
     {
       "path": "17-1-b/data.csv",
@@ -4218,7 +4218,7 @@
           }
         ]
       },
-      "title": "17-1-b"
+      "title": "Proportion of domestic budget funded by domestic taxes"
     },
     {
       "path": "7-1-c/data.csv",
@@ -4254,7 +4254,7 @@
           }
         ]
       },
-      "title": "7-1-c"
+      "title": "Proportion of population with primary reliance on clean fuels and technology"
     },
     {
       "path": "5-1-a/data.csv",
@@ -4290,7 +4290,7 @@
           }
         ]
       },
-      "title": "5-1-a"
+      "title": "Anzahl der Schulen in die am Projekttag teilnehmen"
     },
     {
       "path": "3-4/data.csv",
@@ -4326,7 +4326,7 @@
           }
         ]
       },
-      "title": "3-4"
+      "title": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease"
     },
     {
       "path": "9-3/data.csv",
@@ -4362,7 +4362,7 @@
           }
         ]
       },
-      "title": "9-3"
+      "title": "Breitband Verfügbarkeit Mbit/s in %"
     },
     {
       "path": "17-1-1/data.csv",
@@ -4396,11 +4396,11 @@
                 "Subotica",
                 "Veszprem",
                 "Warszawa",
-                "data.tot",
+                "Gesamt",
                 ""
               ]
             },
-            "title": "data.partner"
+            "title": "Partnerstädte"
           },
           {
             "name": "Value",
@@ -4445,7 +4445,7 @@
           }
         ]
       },
-      "title": "7-2-c"
+      "title": "Anzahl der Photovoltaikanlagen auf bezirkseigenen Gebäuden"
     },
     {
       "path": "12-2/data.csv",
@@ -4481,7 +4481,7 @@
           }
         ]
       },
-      "title": "12-2"
+      "title": "Anzahl der Kirchengemeinden die Teil der Fairtrade Town Kampagne sind"
     },
     {
       "path": "3-1-3/data.csv",
@@ -4541,7 +4541,7 @@
           }
         ]
       },
-      "title": "2-3"
+      "title": "Kilogramm gerettete Lebensmittel (Foodsharing)"
     },
     {
       "path": "10-1-a/data.csv",
@@ -4577,7 +4577,7 @@
           }
         ]
       },
-      "title": "10-1-a"
+      "title": "Anteil mehrsprachiger Informationsmaterialien"
     },
     {
       "path": "12-2-1/data.csv",
@@ -4623,14 +4623,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Ausgezeichnet",
-                "data.Gut",
-                "data.Ausreichend",
-                "data.Mangelhaft",
+                "Ausgezeichnet",
+                "Gut",
+                "Ausreichend",
+                "Mangelhaft",
                 ""
               ]
             },
-            "title": "data.kat"
+            "title": "Kategorie"
           },
           {
             "name": "Value",
@@ -4699,7 +4699,7 @@
           }
         ]
       },
-      "title": "13-2-a"
+      "title": "Mittlere werktägliche Fahrradverkehrsstärke an der Zählstelle Treptow-Köpenick Kaisersteg"
     },
     {
       "path": "3-1-1/data.csv",
@@ -4819,7 +4819,7 @@
           }
         ]
       },
-      "title": "11-1"
+      "title": "Anzahl der kostenlos ausleihbaren Lastenräder im Bezirk"
     },
     {
       "path": "4-3-1/data.csv",
@@ -4877,12 +4877,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.ja",
-                "data.nein",
+                "Ja",
+                "Nein",
                 ""
               ]
             },
-            "title": "data.antworten"
+            "title": "Antworten"
           },
           {
             "name": "Value",
@@ -4927,7 +4927,7 @@
           }
         ]
       },
-      "title": "8-3-b"
+      "title": "Anteil der Beschäftigten mit Einwanderungsgeschichte"
     },
     {
       "path": "5-1-b/data.csv",
@@ -4963,7 +4963,7 @@
           }
         ]
       },
-      "title": "5-1-b"
+      "title": "Anzahl der Schulen in die am Projekttag teilnehmen"
     },
     {
       "path": "16-3-1/data.csv",
@@ -4985,20 +4985,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.tot",
-                "data.wahlk",
-                "data.ableism",
-                "data.sozch",
-                "data.qhostility",
-                "data.antisem",
-                "data.rightwing",
-                "data.polgeg",
-                "data.trivil",
-                "data.racism",
+                "Gesamt",
+                "Wahlkampf",
+                "Behindertenfeindlichkeit",
+                "Sozialchauvinismus",
+                "LGBTIQ*-Feindlichkeit",
+                "Antisemitismus",
+                "Rechte und extrem Rechte Selbstdarstellung",
+                "Politische Gegner*innen",
+                "NS-Verharmlosung und Verherrlichung",
+                "Rassismus",
                 ""
               ]
             },
-            "title": "data.incident"
+            "title": "Art des Vorfalls"
           },
           {
             "name": "Value",
@@ -5044,7 +5044,7 @@
           }
         ]
       },
-      "title": "2-1"
+      "title": "global_indicators.2-1-title"
     },
     {
       "path": "11-7-c/data.csv",
@@ -5080,7 +5080,7 @@
           }
         ]
       },
-      "title": "11-7-c"
+      "title": "Proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months"
     },
     {
       "path": "3-11/data.csv",
@@ -5116,7 +5116,7 @@
           }
         ]
       },
-      "title": "3-11"
+      "title": "Stadtradeln - Mit Fahrrad gefahrene Kilometer"
     },
     {
       "path": "3-6/data.csv",
@@ -5152,7 +5152,7 @@
           }
         ]
       },
-      "title": "3-6"
+      "title": "Death rate due to road traffic injuries"
     },
     {
       "path": "13-2-3/data.csv",
@@ -5212,7 +5212,7 @@
           }
         ]
       },
-      "title": "11-4"
+      "title": "Häufigkeit der auf Wegen genutzten Verkehrsmittel in Treptow-Köpenick"
     },
     {
       "path": "17-4-1/data.csv",
@@ -5221,7 +5221,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "euc_kr",
       "schema": {
         "fields": [
           {
@@ -5234,15 +5234,15 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.stapa",
-                "data.gemeindep",
-                "data.schulp",
-                "data.zivip",
-                "data.weltl",
+                "Städtepartnerschaften",
+                "Gemeindeprojekte",
+                "Schulpartnerschaften",
+                "Zivilgesellschaftliche Projekte",
+                "Weltläden",
                 ""
               ]
             },
-            "title": "data.einewelt"
+            "title": "Eine-Welt-Projekte"
           },
           {
             "name": "Value",
@@ -5287,7 +5287,7 @@
           }
         ]
       },
-      "title": "8-3-a"
+      "title": "Anteil der Beschäftigten mit Einwanderungsgeschichte"
     },
     {
       "path": "7-3-2/data.csv",
@@ -5371,7 +5371,7 @@
           }
         ]
       },
-      "title": "12-3"
+      "title": "Stand der Zertifizierung der Kommune als Fairtrade Town"
     },
     {
       "path": "9-1-2/data.csv",
@@ -5431,7 +5431,7 @@
           }
         ]
       },
-      "title": "3-10"
+      "title": "Mortality rate attributed to unintentional poisoning"
     },
     {
       "path": "5-2/data.csv",
@@ -5467,7 +5467,7 @@
           }
         ]
       },
-      "title": "5-2"
+      "title": "Anzahl der angebotenen Schulungen des Bezirksamts zum gendersensiblen Sprachgebrauch"
     },
     {
       "path": "8-1/data.csv",
@@ -5503,7 +5503,7 @@
           }
         ]
       },
-      "title": "8-1"
+      "title": "Anzahl der Unternehmen in Treptow-Köpenick die über ein gültiges Testat einer Gemeinwohl-Bilanz verfügen"
     },
     {
       "path": "4-7/data.csv",
@@ -5539,7 +5539,7 @@
           }
         ]
       },
-      "title": "4-7"
+      "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment"
     },
     {
       "path": "3-7/data.csv",
@@ -5575,7 +5575,7 @@
           }
         ]
       },
-      "title": "3-7"
+      "title": "Proportion of women of reproductive age (aged 15–49 years) who have their need for family planning satisfied with modern methods"
     },
     {
       "path": "9-2/data.csv",
@@ -5611,7 +5611,7 @@
           }
         ]
       },
-      "title": "9-2"
+      "title": "Anzahl öffentlicher Einrichtungen mit freiem WLAN Zugang"
     },
     {
       "path": "7-1-1/data.csv",
@@ -5669,12 +5669,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.indoor",
-                "data.outdoor",
+                "Innenbereich",
+                "Außenbereich",
                 ""
               ]
             },
-            "title": "data.zug"
+            "title": "Zugangspunkte"
           },
           {
             "name": "Value",
@@ -5719,7 +5719,7 @@
           }
         ]
       },
-      "title": "4-4"
+      "title": "Noch zu definieren"
     },
     {
       "path": "17-2/data.csv",
@@ -5755,7 +5755,7 @@
           }
         ]
       },
-      "title": "17-2"
+      "title": "Menge verkaufter Packungen Fairtrade Kaffee 'Treptow-Köpenicker Bohne' pro Jahr"
     },
     {
       "path": "3-5/data.csv",
@@ -5791,7 +5791,7 @@
           }
         ]
       },
-      "title": "3-5"
+      "title": "Coverage of treatment interventions (pharmacological, psychosocial and rehabilitation and aftercare services) for substance use disorders"
     },
     {
       "path": "15-2/data.csv",
@@ -5827,7 +5827,7 @@
           }
         ]
       },
-      "title": "15-2"
+      "title": "Anzahl der Teilnahmen des Bezirks an Netzwerktreffen und Veranstaltungen des „Akteursnetzwerk biologische Vielfalt“ pro Jahr"
     },
     {
       "path": "3-1/data.csv",
@@ -5863,7 +5863,7 @@
           }
         ]
       },
-      "title": "3-1"
+      "title": "Stadtradeln - Anzahl der Personen die teilnehmen"
     },
     {
       "path": "1-2-a/data.csv",
@@ -5899,7 +5899,7 @@
           }
         ]
       },
-      "title": "1-2-a"
+      "title": "global_indicators.1-2-a-title"
     },
     {
       "path": "5-2-1/data.csv",
@@ -5959,7 +5959,7 @@
           }
         ]
       },
-      "title": "11-5"
+      "title": "Sport-, Freizeit- und Erholungsfläche in Treptow-Köpenick"
     },
     {
       "path": "15-3/data.csv",
@@ -5995,7 +5995,7 @@
           }
         ]
       },
-      "title": "15-3"
+      "title": "Naturschutzgebiete und Landschaftsschutzgebiete (Fläche in ha)"
     },
     {
       "path": "8-2-c/data.csv",
@@ -6031,7 +6031,7 @@
           }
         ]
       },
-      "title": "8-2-c"
+      "title": "Anzahl der Teilnehmenden am Mentoringprogramm"
     },
     {
       "path": "1-2-2/data.csv",

@@ -20,12 +20,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Innenbereich",
-                "Außenbereich",
+                "data.indoor",
+                "data.outdoor",
                 ""
               ]
             },
-            "title": "Zugangspunkte"
+            "title": "data.zug"
           },
           {
             "name": "Value",

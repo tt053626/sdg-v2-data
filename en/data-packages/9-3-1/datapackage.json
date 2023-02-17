@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "iso8859-9",
       "schema": {
         "fields": [
           {
@@ -30,7 +30,7 @@
                 ""
               ]
             },
-            "title": "data.availability"
+            "title": "Verfügbarkeit"
           },
           {
             "name": "Value",

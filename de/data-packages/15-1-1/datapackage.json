@@ -20,12 +20,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Ja",
-                "Nein",
+                "data.ja",
+                "data.nein",
                 ""
               ]
             },
-            "title": "Antworten"
+            "title": "data.antworten"
           },
           {
             "name": "Value",

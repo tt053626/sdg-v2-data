@@ -20,14 +20,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.tot",
-                "data.gewerbe",
-                "data.verkehr",
-                "data.haushalte",
+                "Gesamt",
+                "Verarbeitendes Gewerbe",
+                "Verkehr",
+                "Haushalte, Gewerbe, Handel und Dienstleistungen, übrige Verbraucher",
                 ""
               ]
             },
-            "title": "data.esek"
+            "title": "Emittentensektoren"
           },
           {
             "name": "Value",

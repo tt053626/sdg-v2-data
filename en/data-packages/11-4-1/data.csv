@@ -1,13 +1,13 @@
-Year,data.maintransport,data.spatialtypes,Value
-2018,data.fuss,data.binnen,29.3
-2018,data.rad,data.binnen,16.6
-2018,data.miv,data.binnen,28.5
-2018,data.offis,data.binnen,25.6
-2018,data.fuss,data.quell,2.6
-2018,data.rad,data.quell,5.6
-2018,data.miv,data.quell,64.5
-2018,data.offis,data.quell,27.4
-2018,data.fuss,data.allewege,27.6
-2018,data.rad,data.allewege,15.7
-2018,data.miv,data.allewege,31.0
-2018,data.offis,data.allewege,25.6
+Year,Hauptverkehrsmittel,Verkehrsströme,Value
+2018,Zu Fuß,Binnenverkehr,29.3
+2018,Fahrrad,Binnenverkehr,16.6
+2018,Motorisierter Individualverkehr,Binnenverkehr,28.5
+2018,Öffentlicher Verkehr,Binnenverkehr,25.6
+2018,Zu Fuß,Quell- u. Zielverkehr,2.6
+2018,Fahrrad,Quell- u. Zielverkehr,5.6
+2018,Motorisierter Individualverkehr,Quell- u. Zielverkehr,64.5
+2018,Öffentlicher Verkehr,Quell- u. Zielverkehr,27.4
+2018,Zu Fuß,Alle Wege,27.6
+2018,Fahrrad,Alle Wege,15.7
+2018,Motorisierter Individualverkehr,Alle Wege,31.0
+2018,Öffentlicher Verkehr,Alle Wege,25.6

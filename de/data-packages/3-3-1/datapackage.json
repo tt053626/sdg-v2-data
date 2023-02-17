@@ -20,13 +20,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Gering",
-                "Mittel",
-                "Hoch",
+                "data.low",
+                "data.medium",
+                "data.high",
                 ""
               ]
             },
-            "title": "Relative Luftbelastung"
+            "title": "data.air"
           },
           {
             "name": "Value",

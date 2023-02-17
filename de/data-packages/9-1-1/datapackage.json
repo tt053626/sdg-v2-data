@@ -20,13 +20,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Öffentlicher Raum",
-                "Öffentlich zugänglich - auf privatem Grund",
-                "Gesamt",
+                "data.public",
+                "data.private",
+                "data.tot",
                 ""
               ]
             },
-            "title": "Standort"
+            "title": "data.standort"
           },
           {
             "name": "Value",

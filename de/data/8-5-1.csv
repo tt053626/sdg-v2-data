@@ -1,7 +1,7 @@
-Year,Geschlecht,Value
-2014,Frauen,15.72
-2014,Männer,18.05
+Year,data.sex,Value
+2014,data.w,15.72
+2014,data.m,18.05
 2014,Gender Pay Gap,2.33
-2018,Frauen,18.01
-2018,Männer,20.03
+2018,data.w,18.01
+2018,data.m,20.03
 2018,Gender Pay Gap,1.98

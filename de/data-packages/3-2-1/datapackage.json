@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "iso8859-1",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -20,14 +20,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Keine Werte",
-                "Gering",
-                "Mittel",
-                "Hoch",
+                "data.no",
+                "data.low",
+                "data.medium",
+                "data.high",
                 ""
               ]
             },
-            "title": "Relative Lärmbelastung"
+            "title": "data.noise"
           },
           {
             "name": "Value",

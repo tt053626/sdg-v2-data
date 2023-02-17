@@ -32,11 +32,11 @@
                 "Subotica",
                 "Veszprem",
                 "Warszawa",
-                "data.tot",
+                "Gesamt",
                 ""
               ]
             },
-            "title": "data.partner"
+            "title": "Partnerstädte"
           },
           {
             "name": "Value",

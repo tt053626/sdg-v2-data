@@ -1,22 +1,22 @@
-Year,data.luftg,Value
-2015,data.pm,9
-2015,data.ozonst,5
-2015,data.ozonacht,31
-2016,data.pm,4
-2016,data.ozonst,0
-2016,data.ozonacht,32
-2017,data.pm,4
-2017,data.ozonst,0
-2017,data.ozonacht,8
-2018,data.pm,5
-2018,data.ozonst,3
-2018,data.ozonacht,36
-2019,data.pm,1
-2019,data.ozonst,1
-2019,data.ozonacht,33
-2020,data.pm,1
-2020,data.ozonst,0
-2020,data.ozonacht,20
-2021,data.pm,1
-2021,data.ozonst,0
-2021,data.ozonacht,14
+Year,Luftgüte,Value
+2015,Feinstaub (PM10),9
+2015,Ozon Stundenwerte,5
+2015,Ozon 8-Stundenwerte (gleitend),31
+2016,Feinstaub (PM10),4
+2016,Ozon Stundenwerte,0
+2016,Ozon 8-Stundenwerte (gleitend),32
+2017,Feinstaub (PM10),4
+2017,Ozon Stundenwerte,0
+2017,Ozon 8-Stundenwerte (gleitend),8
+2018,Feinstaub (PM10),5
+2018,Ozon Stundenwerte,3
+2018,Ozon 8-Stundenwerte (gleitend),36
+2019,Feinstaub (PM10),1
+2019,Ozon Stundenwerte,1
+2019,Ozon 8-Stundenwerte (gleitend),33
+2020,Feinstaub (PM10),1
+2020,Ozon Stundenwerte,0
+2020,Ozon 8-Stundenwerte (gleitend),20
+2021,Feinstaub (PM10),1
+2021,Ozon Stundenwerte,0
+2021,Ozon 8-Stundenwerte (gleitend),14

@@ -20,20 +20,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Gesamt",
-                "Wahlkampf",
-                "Behindertenfeindlichkeit",
-                "Sozialchauvinismus",
-                "LGBTIQ*-Feindlichkeit",
-                "Antisemitismus",
-                "Rechte und extrem Rechte Selbstdarstellung",
-                "Politische Gegner*innen",
-                "NS-Verharmlosung und Verherrlichung",
-                "Rassismus",
+                "data.tot",
+                "data.wahlk",
+                "data.ableism",
+                "data.sozch",
+                "data.qhostility",
+                "data.antisem",
+                "data.rightwing",
+                "data.polgeg",
+                "data.trivil",
+                "data.racism",
                 ""
               ]
             },
-            "title": "Art des Vorfalls"
+            "title": "data.incident"
           },
           {
             "name": "Value",

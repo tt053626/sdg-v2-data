@@ -20,27 +20,27 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.fuss",
-                "data.rad",
-                "data.miv",
-                "data.offis",
+                "Zu Fuß",
+                "Fahrrad",
+                "Motorisierter Individualverkehr",
+                "Öffentlicher Verkehr",
                 ""
               ]
             },
-            "title": "data.maintransport"
+            "title": "Hauptverkehrsmittel"
           },
           {
             "name": "data.spatialtypes",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.binnen",
-                "data.quell",
-                "data.allewege",
+                "Binnenverkehr",
+                "Quell- u. Zielverkehr",
+                "Alle Wege",
                 ""
               ]
             },
-            "title": "data.spatialtypes"
+            "title": "Verkehrsströme"
           },
           {
             "name": "Value",

@@ -20,13 +20,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Frauen",
-                "Männer",
-                "Gesamt",
+                "data.w",
+                "data.m",
+                "data.tot",
                 ""
               ]
             },
-            "title": "Geschlecht"
+            "title": "data.sex"
           },
           {
             "name": "Value",

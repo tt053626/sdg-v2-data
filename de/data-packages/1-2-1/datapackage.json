@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "mac-roman",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -20,13 +20,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Repair Cafes",
-                "Gemeinschaftswerkstätten",
-                "ReUse Shops",
+                "data.repcaf",
+                "data.workshops",
+                "data.reuse",
                 ""
               ]
             },
-            "title": "Gruppe"
+            "title": "data.group"
           },
           {
             "name": "Value",

@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "mac-roman",
       "schema": {
         "fields": [
           {
@@ -20,13 +20,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.pm",
-                "data.ozonst",
-                "data.ozonacht",
+                "Feinstaub (PM10)",
+                "Ozon Stundenwerte",
+                "Ozon 8-Stundenwerte (gleitend)",
                 ""
               ]
             },
-            "title": "data.luftg"
+            "title": "Luftgüte"
           },
           {
             "name": "Value",

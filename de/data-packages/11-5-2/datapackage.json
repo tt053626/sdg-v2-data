@@ -20,15 +20,15 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Grün- und Erholungsanlagen (inkl. Spielplätze)",
-                "Kleingärten",
-                "Friedhöfe",
-                "Straßengrün",
-                "Summe öffentliche Grünflächen",
+                "data.erhol",
+                "data.kleing",
+                "data.friedh",
+                "data.strgr",
+                "data.sumgr",
                 ""
               ]
             },
-            "title": "Öffentliche Grünflächen"
+            "title": "data.gruen"
           },
           {
             "name": "Value",

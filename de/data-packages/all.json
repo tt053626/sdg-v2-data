@@ -36,7 +36,7 @@
           }
         ]
       },
-      "title": "8-4"
+      "title": "Rohstoff-Fußabdruck, Rohstoff-Fußabdruck pro Kopf und Rohstoff-Fußabdruck pro BIP"
     },
     {
       "path": "3-2/data.csv",
@@ -72,7 +72,7 @@
           }
         ]
       },
-      "title": "3-2"
+      "title": "Sterblichkeitsrate von Kindern unter 5 Jahren"
     },
     {
       "path": "17-3-5/data.csv",
@@ -204,7 +204,7 @@
           }
         ]
       },
-      "title": "15-5"
+      "title": "Rote Liste Index"
     },
     {
       "path": "6-1-1/data.csv",
@@ -226,12 +226,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Saprobie",
-                "Trophie",
+                "data.saprobie",
+                "data.trophie",
                 ""
               ]
             },
-            "title": "Zustand"
+            "title": "data.zustand"
           },
           {
             "name": "Value",
@@ -300,7 +300,7 @@
           }
         ]
       },
-      "title": "3-8"
+      "title": "Abdeckung der grundlegenden Gesundheitsleistungen (definiert als durchschnittliche Abdeckung der grundlegenden Leistungen basierend auf Tracer-Interventionen, einschließlich reproduktiver, Mütter-, Neugeborenen- und Kindergesundheit, infektiöser Krankheiten und nicht übertragbarer Krankheiten sowie Kapazitäten und Zugang zu Serviceleistungen, innerhalb der allgemein und der überwiegend benachteiligten Bevölkerung)"
     },
     {
       "path": "11-5-1/data.csv",
@@ -322,14 +322,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Siedlungsfläche",
-                "Wohnbaufläche",
-                "Industrie- und Gewerbefläche",
-                "Sport-, Freizeit- und Erholungsfläche",
+                "data.sied",
+                "data.wohn",
+                "data.indu",
+                "data.freiz",
                 ""
               ]
             },
-            "title": "Fläche"
+            "title": "data.area"
           },
           {
             "name": "Value",
@@ -374,7 +374,7 @@
           }
         ]
       },
-      "title": "6-1"
+      "title": "Anteil der Bevölkerung mit Zugang zu einer sicheren Trinkwasserversorgung"
     },
     {
       "path": "9-3-1/data.csv",
@@ -383,7 +383,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "iso8859-9",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -406,7 +406,7 @@
                 ""
               ]
             },
-            "title": "Verfügbarkeit"
+            "title": "data.availability"
           },
           {
             "name": "Value",
@@ -475,7 +475,7 @@
           }
         ]
       },
-      "title": "8-2-a"
+      "title": "Jährliche Wachstumsrate des realen BIP je Beschäftigten"
     },
     {
       "path": "10-1-b/data.csv",
@@ -511,7 +511,7 @@
           }
         ]
       },
-      "title": "10-1-b"
+      "title": "Wachstumsraten der Haushaltsausgaben oder -einkommen pro Kopf der unteren 40 Prozent der Bevölkerung und der Gesamtbevölkerung"
     },
     {
       "path": "14-1-1/data.csv",
@@ -533,20 +533,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Ausgestorben oder verschollen",
-                "Vom Aussterben bedroht",
-                "Stark gefährdet",
-                "Gefährdet",
-                "Gefährdung unbekannten Ausmaßes",
-                "Extrem selten",
-                "Vorwarnliste",
-                "Ungefährdet",
-                "Daten unzureichend",
-                "Nicht bewertet",
+                "data.rlnull",
+                "data.rleins",
+                "data.rlzwei",
+                "data.rldrei",
+                "data.rlg",
+                "data.rlr",
+                "data.rlv",
+                "data.tlu",
+                "data.rld",
+                "data.rle",
                 ""
               ]
             },
-            "title": "Gefährdungskategorien"
+            "title": "data.redlistcat"
           },
           {
             "name": "Value",
@@ -591,7 +591,7 @@
           }
         ]
       },
-      "title": "7-1-a"
+      "title": "Anteil der Bevölkerung mit Zugang zu Elektrizität"
     },
     {
       "path": "14-1/data.csv",
@@ -627,7 +627,7 @@
           }
         ]
       },
-      "title": "14-1"
+      "title": "Index der Eutrophierung der Küsten und Konzentration des schwimmenden Plastikmülls"
     },
     {
       "path": "12-1-b/data.csv",
@@ -663,7 +663,7 @@
           }
         ]
       },
-      "title": "12-1-b"
+      "title": "Anzahl der Staaten mit nationalen Aktionsplänen zu nachhaltigem Konsum und Produktion (SCP) oder SCP, die als Priorität oder Ziel in nationale Politik aufgenommen wurden"
     },
     {
       "path": "1-1-1/data.csv",
@@ -735,7 +735,7 @@
           }
         ]
       },
-      "title": "16-1"
+      "title": "Anzahl der Opfern vorsätzlicher Tötung je 100.000 Einwohner, nach Geschlecht und Alter"
     },
     {
       "path": "11-6/data.csv",
@@ -771,7 +771,7 @@
           }
         ]
       },
-      "title": "11-6"
+      "title": "Anteil der Siedlungsabfälle, die regelmäßig gesammelt und ordnungsgemäß entsorgt werden, an den insgesamt erzeugten Siedlungsabfällen, nach Städten"
     },
     {
       "path": "12-5/data.csv",
@@ -807,7 +807,7 @@
           }
         ]
       },
-      "title": "12-5"
+      "title": "Nationale Recyclingquote, Tonnen an recyceltem Material"
     },
     {
       "path": "9-1/data.csv",
@@ -843,7 +843,7 @@
           }
         ]
       },
-      "title": "9-1"
+      "title": "Anteil der ländlichen Bevölkerung, die im Umkreis von 2 km entfernt an einer ganzjährig befahrbaren Straße lebt"
     },
     {
       "path": "15-2-1/data.csv",
@@ -903,7 +903,7 @@
           }
         ]
       },
-      "title": "2-2"
+      "title": "global_indicators.2-2-title"
     },
     {
       "path": "11-7-a/data.csv",
@@ -939,7 +939,7 @@
           }
         ]
       },
-      "title": "11-7-a"
+      "title": "Durchschnittlicher Anteil der bebauten Fläche in Städten, die als Freifläche öffentlich zugänglich ist, nach Geschlecht, Alter und Personen mit Behinderungen"
     },
     {
       "path": "10-3/data.csv",
@@ -975,7 +975,7 @@
           }
         ]
       },
-      "title": "10-3"
+      "title": "Anteil der Bevölkerung, die angibt sich in den vergangenen 12 Monaten persönlich diskriminiert oder belästigt gefühlt zu haben basierend auf einem Diskriminierungsgrund, der nach internationalem Menschenrechtsgesetzen verboten ist"
     },
     {
       "path": "11-2-1/data.csv",
@@ -1064,7 +1064,7 @@
               "enum": [
                 "fLotte kommunal",
                 "fLotte nicht-kommunal",
-                "Gesamt",
+                "data.tot",
                 ""
               ]
             },
@@ -1209,7 +1209,7 @@
           }
         ]
       },
-      "title": "4-5"
+      "title": "Paritäts-Indizes (weiblich/männlich, rural/urban, unterstes/oberstes Vermögensquantil und sonstige, wie z. B. Grad der Behinderung, indigene Bevölkerung und konfliktbetroffen, sobald Daten verfügbar werden) für alle Bildungsindikatoren dieser Liste, die disaggregiert werden können"
     },
     {
       "path": "17-6-1/data.csv",
@@ -1269,7 +1269,7 @@
               "enum": [
                 "fLotte kommunal",
                 "fLotte nicht-kommunal",
-                "Gesamt",
+                "data.tot",
                 ""
               ]
             },
@@ -1318,7 +1318,7 @@
           }
         ]
       },
-      "title": "1-2-b"
+      "title": "global_indicators.1-2-b-title"
     },
     {
       "path": "13-2-b/data.csv",
@@ -1354,7 +1354,7 @@
           }
         ]
       },
-      "title": "13-2-b"
+      "title": "Gesamte Treibhausgasemissionen pro Jahr"
     },
     {
       "path": "11-4-1/data.csv",
@@ -1376,27 +1376,27 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Zu Fuß",
-                "Fahrrad",
-                "Motorisierter Individualverkehr",
-                "Öffentlicher Verkehr",
+                "data.fuss",
+                "data.rad",
+                "data.miv",
+                "data.offis",
                 ""
               ]
             },
-            "title": "Hauptverkehrsmittel"
+            "title": "data.maintransport"
           },
           {
             "name": "data.spatialtypes",
             "type": "string",
             "constraints": {
               "enum": [
-                "Binnenverkehr",
-                "Quell- u. Zielverkehr",
-                "Alle Wege",
+                "data.binnen",
+                "data.quell",
+                "data.allewege",
                 ""
               ]
             },
-            "title": "Verkehrsströme"
+            "title": "data.spatialtypes"
           },
           {
             "name": "Value",
@@ -1441,7 +1441,7 @@
           }
         ]
       },
-      "title": "15-1"
+      "title": "Waldfläche als Anteil an der gesamten Landfläche"
     },
     {
       "path": "12-1-1/data.csv",
@@ -1487,13 +1487,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Frauen",
-                "Männer",
-                "Gesamt",
+                "data.w",
+                "data.m",
+                "data.tot",
                 ""
               ]
             },
-            "title": "Geschlecht"
+            "title": "data.sex"
           },
           {
             "name": "Value",
@@ -1598,7 +1598,7 @@
           }
         ]
       },
-      "title": "13-1-b"
+      "title": "Anzahl der Staaten, die nationale Strategien zur Reduzierung des Katastrophenrisikos in Einklang mit dem Sendai-Rahmenwerk zur Katastrophenvorsorge 2015-2030 verabschiedet und umgesetzt haben"
     },
     {
       "path": "8-3-1/data.csv",
@@ -1667,7 +1667,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "iso8859-9",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -1680,13 +1680,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Naturschutzgebiete",
-                "Landschaftsschutzgebiete",
-                "Gesamt",
+                "data.nat",
+                "data.protect",
+                "data.tot",
                 ""
               ]
             },
-            "title": "Fläche"
+            "title": "data.area"
           },
           {
             "name": "Value",
@@ -1767,7 +1767,7 @@
           }
         ]
       },
-      "title": "4-6"
+      "title": "Anteil der Bevölkerung einer bestimmten Altersgruppe, die über ein festes Mindestniveau an funktionalen (a) Lese- und (b) Rechenfähigkeiten verfügt, nach Geschlecht"
     },
     {
       "path": "17-2-1/data.csv",
@@ -1800,7 +1800,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "mac-roman",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -1813,13 +1813,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Repair Cafes",
-                "Gemeinschaftswerkstätten",
-                "ReUse Shops",
+                "data.repcaf",
+                "data.workshops",
+                "data.reuse",
                 ""
               ]
             },
-            "title": "Gruppe"
+            "title": "data.group"
           },
           {
             "name": "Value",
@@ -1888,7 +1888,7 @@
           }
         ]
       },
-      "title": "4-8"
+      "title": "Abschlussquote (Grundschulbildung, Sekundarstufe I, Sekundarstufe II)"
     },
     {
       "path": "10-4/data.csv",
@@ -1924,7 +1924,7 @@
           }
         ]
       },
-      "title": "10-4"
+      "title": "Anteil des Arbeitsnehmerentgelts am BIP, bestehend aus Löhnen, Gehältern und Sozialversicherungsbeiträgen"
     },
     {
       "path": "17-3-4/data.csv",
@@ -1984,7 +1984,7 @@
           }
         ]
       },
-      "title": "10-2"
+      "title": "Anteil der Bevölkerung, die mit weniger als 50% des Medianeinkommens leben, nach Geschlecht, Alter und Menschen mit Behinderung"
     },
     {
       "path": "8-3-c/data.csv",
@@ -2020,7 +2020,7 @@
           }
         ]
       },
-      "title": "8-3-c"
+      "title": "Anteil der informellen Beschäftigung an allen Beschäftigungsverhältnissen außerhalb der Landwirtschaft, nach Geschlecht"
     },
     {
       "path": "12-1-a/data.csv",
@@ -2056,7 +2056,7 @@
           }
         ]
       },
-      "title": "12-1-a"
+      "title": "Anzahl der Staaten mit nationalen Aktionsplänen zu nachhaltigem Konsum und Produktion (SCP) oder SCP, die als Priorität oder Ziel in nationale Politik aufgenommen wurden"
     },
     {
       "path": "3-3-2/data.csv",
@@ -2065,7 +2065,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "mac-roman",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -2078,13 +2078,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Feinstaub (PM10)",
-                "Ozon Stundenwerte",
-                "Ozon 8-Stundenwerte (gleitend)",
+                "data.pm",
+                "data.ozonst",
+                "data.ozonacht",
                 ""
               ]
             },
-            "title": "Luftgüte"
+            "title": "data.luftg"
           },
           {
             "name": "Value",
@@ -2102,7 +2102,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "iso8859-1",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -2115,14 +2115,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Keine Werte",
-                "Gering",
-                "Mittel",
-                "Hoch",
+                "data.no",
+                "data.low",
+                "data.medium",
+                "data.high",
                 ""
               ]
             },
-            "title": "Relative Lärmbelastung"
+            "title": "data.noise"
           },
           {
             "name": "Value",
@@ -2191,7 +2191,7 @@
           }
         ]
       },
-      "title": "7-2-a"
+      "title": "Anteil der erneuerbaren Energien am gesamten Endenergieverbrauch"
     },
     {
       "path": "11-5-2/data.csv",
@@ -2213,15 +2213,15 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Grün- und Erholungsanlagen (inkl. Spielplätze)",
-                "Kleingärten",
-                "Friedhöfe",
-                "Straßengrün",
-                "Summe öffentliche Grünflächen",
+                "data.erhol",
+                "data.kleing",
+                "data.friedh",
+                "data.strgr",
+                "data.sumgr",
                 ""
               ]
             },
-            "title": "Öffentliche Grünflächen"
+            "title": "data.gruen"
           },
           {
             "name": "Value",
@@ -2275,7 +2275,7 @@
                 ""
               ]
             },
-            "title": "Bezirksregion"
+            "title": "data.bezirk"
           },
           {
             "name": "Value",
@@ -2320,7 +2320,7 @@
           }
         ]
       },
-      "title": "16-3"
+      "title": "Anteil der Opfer von Gewalttaten in den vergangenen 12 Monaten, die ihre Viktimisierung den zuständigen Behörden oder anderen offiziell anerkannten Stellen der Konfliktaufarbeitung gemeldet haben"
     },
     {
       "path": "5-3-1/data.csv",
@@ -2464,7 +2464,7 @@
           }
         ]
       },
-      "title": "7-2-b"
+      "title": "Anteil der erneuerbaren Energien am gesamten Endenergieverbrauch"
     },
     {
       "path": "4-3/data.csv",
@@ -2500,7 +2500,7 @@
           }
         ]
       },
-      "title": "4-3"
+      "title": "Teilnahmequote von Jugendlichen und Erwachsenen an formaler und non-formaler Bildung und Ausbildung in den vergangenen 12 Monaten, nach Geschlecht"
     },
     {
       "path": "13-3-1/data.csv",
@@ -2522,14 +2522,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Gesamt",
-                "Verarbeitendes Gewerbe",
-                "Verkehr",
-                "Haushalte, Gewerbe, Handel und Dienstleistungen, übrige Verbraucher",
+                "data.tot",
+                "data.gewerbe",
+                "data.verkehr",
+                "data.haushalte",
                 ""
               ]
             },
-            "title": "Emittentensektoren"
+            "title": "data.esek"
           },
           {
             "name": "Value",
@@ -2574,7 +2574,7 @@
           }
         ]
       },
-      "title": "17-1-a"
+      "title": "Gesamte Staatseinnahmen als Anteil am BIP, nach Quelle"
     },
     {
       "path": "3-1-2/data.csv",
@@ -2634,7 +2634,7 @@
           }
         ]
       },
-      "title": "13-1-c"
+      "title": "Anteil der lokalen Regierungen, die lokale Strategien zur Reduzierung des Katastrophenrisikos in Einklang mit den nationalen Strategien zur Katastrophenvorsorge verabschiedet und umgesetzt haben"
     },
     {
       "path": "13-1-2/data.csv",
@@ -2656,12 +2656,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Ja",
-                "Nein",
+                "data.ja",
+                "data.nein",
                 ""
               ]
             },
-            "title": "Antworten"
+            "title": "data.antworten"
           },
           {
             "name": "Value",
@@ -2706,7 +2706,7 @@
           }
         ]
       },
-      "title": "15-4"
+      "title": "Abdeckung der wichtigen Gebiete für Biodiversität in den Bergen durch Schutzgebiete"
     },
     {
       "path": "8-4-1/data.csv",
@@ -2802,7 +2802,7 @@
           }
         ]
       },
-      "title": "8-5"
+      "title": "Durchschnittlicher Stundenlohn von weiblichen und männlichen Beschäftigten, nach Beruf, Alter und Personen mit Behinderungen"
     },
     {
       "path": "8-2-1/data.csv",
@@ -2922,7 +2922,7 @@
           }
         ]
       },
-      "title": "11-3"
+      "title": "Verhältnis der Flächennutzungs- zur Bevölkerungswachstumsrate"
     },
     {
       "path": "12-3-1/data.csv",
@@ -2982,7 +2982,7 @@
           }
         ]
       },
-      "title": "7-1-b"
+      "title": "Anteil der Bevölkerung mit überwiegender Abhängigkeit von sauberen Energieträgern und Technologien"
     },
     {
       "path": "11-2/data.csv",
@@ -3018,7 +3018,7 @@
           }
         ]
       },
-      "title": "11-2"
+      "title": "Anteil der Bevölkerung, der einen angemessenen Zugang zu öffentlichen Verkehrsmitteln hat, nach Geschlecht, Alter und Menschen mit Behinderung"
     },
     {
       "path": "1-1/data.csv",
@@ -3054,7 +3054,7 @@
           }
         ]
       },
-      "title": "1-1"
+      "title": "global_indicators.1-1-title"
     },
     {
       "path": "5-1-1/data.csv",
@@ -3123,7 +3123,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "iso8859-9",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -3136,13 +3136,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Frauen",
-                "Männer",
+                "data.w",
+                "data.m",
                 "Gender Pay Gap",
                 ""
               ]
             },
-            "title": "Geschlecht"
+            "title": "data.sex"
           },
           {
             "name": "Value",
@@ -3211,7 +3211,7 @@
           }
         ]
       },
-      "title": "1-2-c"
+      "title": "global_indicators.1-2-c-title"
     },
     {
       "path": "7-3-1/data.csv",
@@ -3241,7 +3241,7 @@
                 ""
               ]
             },
-            "title": "Leistungsklasse"
+            "title": "data.pow"
           },
           {
             "name": "Value",
@@ -3286,7 +3286,7 @@
           }
         ]
       },
-      "title": "4-2"
+      "title": "Anteil der Kinder unter 5 Jahren mit einer altersgemäßen  Entwicklung hinsichtlich Gesundheit, Lernen und psycho-sozialem Wohlbefinden, nach Geschlecht"
     },
     {
       "path": "17-3-3/data.csv",
@@ -3346,7 +3346,7 @@
           }
         ]
       },
-      "title": "13-1-a"
+      "title": "Anzahl der infolge von Katastrophen getöteten, vermissten und direkt betroffenen Personen, je 100.000 Einwohner"
     },
     {
       "path": "8-2-b/data.csv",
@@ -3382,7 +3382,7 @@
           }
         ]
       },
-      "title": "8-2-b"
+      "title": "Jährliche Wachstumsrate des realen BIP je Beschäftigten"
     },
     {
       "path": "10-5/data.csv",
@@ -3418,7 +3418,7 @@
           }
         ]
       },
-      "title": "10-5"
+      "title": "Financial Soundness Indicators"
     },
     {
       "path": "11-7-b/data.csv",
@@ -3454,7 +3454,7 @@
           }
         ]
       },
-      "title": "11-7-b"
+      "title": "Anteil der Personen, die in den vergangenen 12 Monaten Opfer körperlicher oder sexueller Belästigung wurden, nach Geschlecht, Alter, Behinderungsstatus und Ort des Geschehens"
     },
     {
       "path": "4-1/data.csv",
@@ -3490,7 +3490,7 @@
           }
         ]
       },
-      "title": "4-1"
+      "title": "Anteil der Kinder und Jugendlichen, die (a) in Klasse 2/3 (b) am Ende der Grundschule und (c) am Ende der Sekundarstufe I ein Mindestleistungsniveau in (i) Lesen und (ii) Mathematik erreichen, nach Geschlecht"
     },
     {
       "path": "16-2/data.csv",
@@ -3526,7 +3526,7 @@
           }
         ]
       },
-      "title": "16-2"
+      "title": "Anteil der Kinder im Alter von 1-17 Jahren, die im vergangenen Monat eine körperliche Strafe und/oder psychische Aggression durch Betreuungspersonen erfahren haben"
     },
     {
       "path": "10-1-c/data.csv",
@@ -3562,7 +3562,7 @@
           }
         ]
       },
-      "title": "10-1-c"
+      "title": "Wachstumsraten der Haushaltsausgaben oder -einkommen pro Kopf der unteren 40 Prozent der Bevölkerung und der Gesamtbevölkerung"
     },
     {
       "path": "12-4-1/data.csv",
@@ -3584,9 +3584,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Keine Bewerbung",
-                "In Bewerbung",
-                "Fairtrade-School zertifiziert",
+                "data.keineB",
+                "data.inB",
+                "data.zert",
                 ""
               ]
             },
@@ -3621,8 +3621,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Siegel Faire Gemeinde",
-                "Kein Siegel",
+                "data.zertFG",
+                "data.zertK",
                 ""
               ]
             },
@@ -3671,7 +3671,7 @@
           }
         ]
       },
-      "title": "8-2-d"
+      "title": "Jährliche Wachstumsrate des realen BIP je Beschäftigten"
     },
     {
       "path": "15-4-1/data.csv",
@@ -3743,7 +3743,7 @@
           }
         ]
       },
-      "title": "13-1-d"
+      "title": "Anteil der lokalen Regierungen, die lokale Strategien zur Reduzierung des Katastrophenrisikos in Einklang mit den nationalen Strategien zur Katastrophenvorsorge verabschiedet und umgesetzt haben"
     },
     {
       "path": "10-1-1/data.csv",
@@ -3815,7 +3815,7 @@
           }
         ]
       },
-      "title": "12-4"
+      "title": "Anzahl der Vertragsparteien internationaler multilateraler Umweltabkommen über gefährliche Abfälle und andere Chemikalien, die ihren Bekenntnissen und Verpflichtungen nachkommen, indem sie die gemäß dem jeweiligen Übereinkommen geforderten Informationen übermitteln"
     },
     {
       "path": "10-2-1/data.csv",
@@ -3897,13 +3897,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Gering",
-                "Mittel",
-                "Hoch",
+                "data.low",
+                "data.medium",
+                "data.high",
                 ""
               ]
             },
-            "title": "Relative Luftbelastung"
+            "title": "data.air"
           },
           {
             "name": "Value",
@@ -3972,7 +3972,7 @@
           }
         ]
       },
-      "title": "3-9"
+      "title": "Sterblichkeitsrate infolge von Luftverschmutzung im Haushalt und der Umgebung"
     },
     {
       "path": "14-2-1/data.csv",
@@ -4131,13 +4131,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Öffentlicher Raum",
-                "Öffentlich zugänglich - auf privatem Grund",
-                "Gesamt",
+                "data.public",
+                "data.private",
+                "data.tot",
                 ""
               ]
             },
-            "title": "Standort"
+            "title": "data.standort"
           },
           {
             "name": "Value",
@@ -4182,7 +4182,7 @@
           }
         ]
       },
-      "title": "3-3"
+      "title": "Anzahl der HIV-Neuinfektionen je 1.000 nicht infizierter Einwohner, nach Geschlecht, Alter und Risikogruppen"
     },
     {
       "path": "17-1-b/data.csv",
@@ -4218,7 +4218,7 @@
           }
         ]
       },
-      "title": "17-1-b"
+      "title": "Anteil des Haushaltsbudgets, das durch inländische Steuern finanziert wird"
     },
     {
       "path": "7-1-c/data.csv",
@@ -4254,7 +4254,7 @@
           }
         ]
       },
-      "title": "7-1-c"
+      "title": "Anteil der Bevölkerung mit überwiegender Abhängigkeit von sauberen Energieträgern und Technologien"
     },
     {
       "path": "5-1-a/data.csv",
@@ -4290,7 +4290,7 @@
           }
         ]
       },
-      "title": "5-1-a"
+      "title": "Existenz gesetzlicher Rahmenbedingungen, die Gleichstellung und Nicht-Diskriminierung aufgrund des Geschlechts fördern, durchsetzen und überwachen"
     },
     {
       "path": "3-4/data.csv",
@@ -4326,7 +4326,7 @@
           }
         ]
       },
-      "title": "3-4"
+      "title": "Sterblichkeitsrate infolge von Herz-Kreislauf-Erkrankungen, Krebs, Diabetes oder chronischen Atemwegserkrankungen"
     },
     {
       "path": "9-3/data.csv",
@@ -4362,7 +4362,7 @@
           }
         ]
       },
-      "title": "9-3"
+      "title": "Anteil der kleiner Unternehmen an der gesamten Wertschöpfung der Industrie"
     },
     {
       "path": "17-1-1/data.csv",
@@ -4396,11 +4396,11 @@
                 "Subotica",
                 "Veszprem",
                 "Warszawa",
-                "Gesamt",
+                "data.tot",
                 ""
               ]
             },
-            "title": "Partnerstädte"
+            "title": "data.partner"
           },
           {
             "name": "Value",
@@ -4445,7 +4445,7 @@
           }
         ]
       },
-      "title": "7-2-c"
+      "title": "Anteil der erneuerbaren Energien am gesamten Endenergieverbrauch"
     },
     {
       "path": "12-2/data.csv",
@@ -4481,7 +4481,7 @@
           }
         ]
       },
-      "title": "12-2"
+      "title": "Rohstoff-Fußabdruck, Rohstoff-Fußabdruck pro Kopf und Rohstoff-Fußabdruck pro BIP"
     },
     {
       "path": "3-1-3/data.csv",
@@ -4541,7 +4541,7 @@
           }
         ]
       },
-      "title": "2-3"
+      "title": "Produktionsvolumen je Arbeitskraft nach Unternehmensgrößenklassen der Betriebsgröße in Land-/Weide-/Forstwirtschaft"
     },
     {
       "path": "10-1-a/data.csv",
@@ -4577,7 +4577,7 @@
           }
         ]
       },
-      "title": "10-1-a"
+      "title": "Wachstumsraten der Haushaltsausgaben oder -einkommen pro Kopf der unteren 40 Prozent der Bevölkerung und der Gesamtbevölkerung"
     },
     {
       "path": "12-2-1/data.csv",
@@ -4623,14 +4623,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Ausgezeichnet",
-                "Gut",
-                "Ausreichend",
-                "Mangelhaft",
+                "data.Ausgezeichnet",
+                "data.Gut",
+                "data.Ausreichend",
+                "data.Mangelhaft",
                 ""
               ]
             },
-            "title": "Kategorie"
+            "title": "data.kat"
           },
           {
             "name": "Value",
@@ -4699,7 +4699,7 @@
           }
         ]
       },
-      "title": "13-2-a"
+      "title": "Anzahl der Staaten, die die Ausarbeitung oder Umsetzung einer/s integrierten Politik/Strategie/Plans verkündet haben, welche/r ihre Fähigkeit zur Anpassung an die negativen Auswirkungen des Klimawandels erhöht und die Widerstandsfähigkeit gegenüber Klimaänderungen als auch eine rückläufige Entwicklung der Treibhausgasemissionen fördert ohne die Nahrungsmittelproduktion zu gefährden (einschließlich eines nationalen Anpassungsplans, national festgelegten Beitrags, nationaler Kommunikation, zweijährlichen Aktualisierungsberichts oder anderer)"
     },
     {
       "path": "3-1-1/data.csv",
@@ -4819,7 +4819,7 @@
           }
         ]
       },
-      "title": "11-1"
+      "title": "Anteil der urbanen Bevölkerung, die in Slums, informellen Siedlungen oder unzureichenden Behausungen lebt"
     },
     {
       "path": "4-3-1/data.csv",
@@ -4877,12 +4877,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Ja",
-                "Nein",
+                "data.ja",
+                "data.nein",
                 ""
               ]
             },
-            "title": "Antworten"
+            "title": "data.antworten"
           },
           {
             "name": "Value",
@@ -4927,7 +4927,7 @@
           }
         ]
       },
-      "title": "8-3-b"
+      "title": "Anteil der informellen Beschäftigung an allen Beschäftigungsverhältnissen außerhalb der Landwirtschaft, nach Geschlecht"
     },
     {
       "path": "5-1-b/data.csv",
@@ -4963,7 +4963,7 @@
           }
         ]
       },
-      "title": "5-1-b"
+      "title": "Existenz gesetzlicher Rahmenbedingungen, die Gleichstellung und Nicht-Diskriminierung aufgrund des Geschlechts fördern, durchsetzen und überwachen"
     },
     {
       "path": "16-3-1/data.csv",
@@ -4985,20 +4985,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Gesamt",
-                "Wahlkampf",
-                "Behindertenfeindlichkeit",
-                "Sozialchauvinismus",
-                "LGBTIQ*-Feindlichkeit",
-                "Antisemitismus",
-                "Rechte und extrem Rechte Selbstdarstellung",
-                "Politische Gegner*innen",
-                "NS-Verharmlosung und Verherrlichung",
-                "Rassismus",
+                "data.tot",
+                "data.wahlk",
+                "data.ableism",
+                "data.sozch",
+                "data.qhostility",
+                "data.antisem",
+                "data.rightwing",
+                "data.polgeg",
+                "data.trivil",
+                "data.racism",
                 ""
               ]
             },
-            "title": "Art des Vorfalls"
+            "title": "data.incident"
           },
           {
             "name": "Value",
@@ -5044,7 +5044,7 @@
           }
         ]
       },
-      "title": "2-1"
+      "title": "global_indicators.2-1-title"
     },
     {
       "path": "11-7-c/data.csv",
@@ -5080,7 +5080,7 @@
           }
         ]
       },
-      "title": "11-7-c"
+      "title": "Anteil der Personen, die in den vergangenen 12 Monaten Opfer körperlicher oder sexueller Belästigung wurden, nach Geschlecht, Alter, Behinderungsstatus und Ort des Geschehens"
     },
     {
       "path": "3-11/data.csv",
@@ -5116,7 +5116,7 @@
           }
         ]
       },
-      "title": "3-11"
+      "title": "Anteil der Geburten unter der Aufsicht von qualifiziertem Gesundheitspersonal"
     },
     {
       "path": "3-6/data.csv",
@@ -5152,7 +5152,7 @@
           }
         ]
       },
-      "title": "3-6"
+      "title": "Sterblichkeitsrate aufgrund von Straßenverkehrsunfällen"
     },
     {
       "path": "13-2-3/data.csv",
@@ -5212,7 +5212,7 @@
           }
         ]
       },
-      "title": "11-4"
+      "title": "Gesamtausgaben (öffentlich und privat) pro Kopf für die Bewahrung, den Schutz und die Erhaltung des Kultur- und Naturerbes, nach Art des Erbes (Kultur, Natur, gemischt und durch das Welterbezentrum ernannt), Regierungsebene (national, regional und lokal/kommunal), Art der Ausgabe (Betriebsausgabe/Investition) und Art der privaten Finanzierung (Sachspenden, privater gemeinnütziger Sektor und Förderer)"
     },
     {
       "path": "17-4-1/data.csv",
@@ -5221,7 +5221,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "euc_kr",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -5234,15 +5234,15 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Städtepartnerschaften",
-                "Gemeindeprojekte",
-                "Schulpartnerschaften",
-                "Zivilgesellschaftliche Projekte",
-                "Weltläden",
+                "data.stapa",
+                "data.gemeindep",
+                "data.schulp",
+                "data.zivip",
+                "data.weltl",
                 ""
               ]
             },
-            "title": "Eine-Welt-Projekte"
+            "title": "data.einewelt"
           },
           {
             "name": "Value",
@@ -5287,7 +5287,7 @@
           }
         ]
       },
-      "title": "8-3-a"
+      "title": "Anteil der informellen Beschäftigung an allen Beschäftigungsverhältnissen außerhalb der Landwirtschaft, nach Geschlecht"
     },
     {
       "path": "7-3-2/data.csv",
@@ -5371,7 +5371,7 @@
           }
         ]
       },
-      "title": "12-3"
+      "title": "Index zu globalen Nahrungsmittelverlusten"
     },
     {
       "path": "9-1-2/data.csv",
@@ -5431,7 +5431,7 @@
           }
         ]
       },
-      "title": "3-10"
+      "title": "Sterblichkeitsrate infolge von unbeabsichtigtem Vergiften"
     },
     {
       "path": "5-2/data.csv",
@@ -5467,7 +5467,7 @@
           }
         ]
       },
-      "title": "5-2"
+      "title": "Anteil der Frauen und Mädchen im Alter von 15 Jahren und älter, die sich in ihrer jetzigen oder früheren Partnerschaft physischer, sexueller oder psychischer Gewalt durch ihren aktuellen oder früheren Intimpartner in den vergangenen 12 Monaten ausgesetzt waren, nach Art der Gewalt und Alter"
     },
     {
       "path": "8-1/data.csv",
@@ -5503,7 +5503,7 @@
           }
         ]
       },
-      "title": "8-1"
+      "title": "Jährliche Wachstumsrate des realen BIP pro Kopf"
     },
     {
       "path": "4-7/data.csv",
@@ -5539,7 +5539,7 @@
           }
         ]
       },
-      "title": "4-7"
+      "title": "Umfang, in dem (i) Bildung zu globaler Staatsbürgerschaft und (ii) Bildung für nachhaltige Entwicklung, einschließlich der Geschlechtergleichstellung und der Menschenrechte, auf allen Ebenen in: (a) nationale Bildungspolitik, (b) Lehrpläne, (c) Lehrerausbildung und (d) Schulleistungsuntersuchung berücksichtigt werden"
     },
     {
       "path": "3-7/data.csv",
@@ -5575,7 +5575,7 @@
           }
         ]
       },
-      "title": "3-7"
+      "title": "Anteil der Frauen im gebärfähigen Alter (15-49 Jahre), die ihren Anspruch auf Familienplanung durch moderne Methoden umsetzen können"
     },
     {
       "path": "9-2/data.csv",
@@ -5611,7 +5611,7 @@
           }
         ]
       },
-      "title": "9-2"
+      "title": "Wertschöpfung des Verarbeitenden Gewerbes als Anteil am BIP und pro Kopf"
     },
     {
       "path": "7-1-1/data.csv",
@@ -5669,12 +5669,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Innenbereich",
-                "Außenbereich",
+                "data.indoor",
+                "data.outdoor",
                 ""
               ]
             },
-            "title": "Zugangspunkte"
+            "title": "data.zug"
           },
           {
             "name": "Value",
@@ -5719,7 +5719,7 @@
           }
         ]
       },
-      "title": "4-4"
+      "title": "Anteil der Jugendlichen und Erwachsenen mit Kompetenzen in Informations- und Kommunikationstechnologie (IKT), nach Art der Kompetenz"
     },
     {
       "path": "17-2/data.csv",
@@ -5755,7 +5755,7 @@
           }
         ]
       },
-      "title": "17-2"
+      "title": "Öffentliche Nettoentwicklungsausgaben, insgesamt und an am wenigsten entwickelte Länder, als Anteil am Bruttonationaleinkommen (BNE) der Geberländer des Ausschusses für Entwicklungshilfe der Organisation für wirtschaftliche Zusammenarbeit und Entwicklung (OECD)"
     },
     {
       "path": "3-5/data.csv",
@@ -5791,7 +5791,7 @@
           }
         ]
       },
-      "title": "3-5"
+      "title": "Abdeckung durch Behandlungsmaßnahmen (pharmakologische, psychosoziale und Rehabilitations- und Nachsorgeleistungen) bei Substanzmissbrauch"
     },
     {
       "path": "15-2/data.csv",
@@ -5827,7 +5827,7 @@
           }
         ]
       },
-      "title": "15-2"
+      "title": "Fortschritt bei der nachhaltigen Waldbewirtschaftung"
     },
     {
       "path": "3-1/data.csv",
@@ -5863,7 +5863,7 @@
           }
         ]
       },
-      "title": "3-1"
+      "title": "Müttersterblichkeitsrate"
     },
     {
       "path": "1-2-a/data.csv",
@@ -5899,7 +5899,7 @@
           }
         ]
       },
-      "title": "1-2-a"
+      "title": "global_indicators.1-2-a-title"
     },
     {
       "path": "5-2-1/data.csv",
@@ -5959,7 +5959,7 @@
           }
         ]
       },
-      "title": "11-5"
+      "title": "Anzahl der infolge von Katastrophen getöteten, vermissten und direkt betroffenen Personen, je 100.000 Einwohner"
     },
     {
       "path": "15-3/data.csv",
@@ -5995,7 +5995,7 @@
           }
         ]
       },
-      "title": "15-3"
+      "title": "Anteil der Fläche, die von Bodendegradation betroffenen ist, an der gesamten Landfläche"
     },
     {
       "path": "8-2-c/data.csv",
@@ -6031,7 +6031,7 @@
           }
         ]
       },
-      "title": "8-2-c"
+      "title": "Jährliche Wachstumsrate des realen BIP je Beschäftigten"
     },
     {
       "path": "1-2-2/data.csv",

@@ -20,14 +20,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Ausgezeichnet",
-                "Gut",
-                "Ausreichend",
-                "Mangelhaft",
+                "data.Ausgezeichnet",
+                "data.Gut",
+                "data.Ausreichend",
+                "data.Mangelhaft",
                 ""
               ]
             },
-            "title": "Kategorie"
+            "title": "data.kat"
           },
           {
             "name": "Value",

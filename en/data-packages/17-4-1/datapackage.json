@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "euc_kr",
       "schema": {
         "fields": [
           {
@@ -20,15 +20,15 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.stapa",
-                "data.gemeindep",
-                "data.schulp",
-                "data.zivip",
-                "data.weltl",
+                "Städtepartnerschaften",
+                "Gemeindeprojekte",
+                "Schulpartnerschaften",
+                "Zivilgesellschaftliche Projekte",
+                "Weltläden",
                 ""
               ]
             },
-            "title": "data.einewelt"
+            "title": "Eine-Welt-Projekte"
           },
           {
             "name": "Value",

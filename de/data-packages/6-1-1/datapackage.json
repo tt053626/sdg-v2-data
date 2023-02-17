@@ -20,12 +20,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Saprobie",
-                "Trophie",
+                "data.saprobie",
+                "data.trophie",
                 ""
               ]
             },
-            "title": "Zustand"
+            "title": "data.zustand"
           },
           {
             "name": "Value",
