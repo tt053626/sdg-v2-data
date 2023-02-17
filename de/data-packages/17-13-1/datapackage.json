@@ -12,8 +12,46 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "percentage",
+                "billion eur",
+                "million hours",
+                "2015 = 100",
+                "1 000",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "timeseries",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "annual growth rate of real gdp",
+                "available income of private households",
+                "consumption by private households",
+                "debts of the total public budget",
+                "government fiscal balance",
+                "gross fixed capital formation",
+                "hours worked by employees",
+                "hours worked by persons employed",
+                "labour productivity per hour worked by employee",
+                "labour productivity per hour worked by persons employed",
+                "persons employed",
+                "real gdp per capita",
+                "trade balance",
+                ""
+              ]
+            },
+            "title": "timeseries"
           },
           {
             "name": "Value",

@@ -16,21 +16,20 @@
             "title": "Year"
           },
           {
-            "name": "data.air",
+            "name": "sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Gering",
-                "Mittel",
-                "Hoch",
+                "female",
+                "male",
                 ""
               ]
             },
-            "title": "Relative Luftbelastung"
+            "title": "sex"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

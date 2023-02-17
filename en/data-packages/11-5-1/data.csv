@@ -1,25 +1,7 @@
-Year,Fläche,Value
-2021,Siedlungsfläche,5871
-2020,Siedlungsfläche,5876
-2019,Siedlungsfläche,5877
-2018,Siedlungsfläche,5887
-2017,Siedlungsfläche,5862
-2016,Siedlungsfläche,5854
-2021,Wohnbaufläche,2697
-2020,Wohnbaufläche,2672
-2019,Wohnbaufläche,2650
-2018,Wohnbaufläche,2621
-2017,Wohnbaufläche,2600
-2016,Wohnbaufläche,2562
-2021,Industrie- und Gewerbefläche,852
-2020,Industrie- und Gewerbefläche,843
-2019,Industrie- und Gewerbefläche,844
-2018,Industrie- und Gewerbefläche,842
-2017,Industrie- und Gewerbefläche,838
-2016,Industrie- und Gewerbefläche,812
-2021,"Sport-, Freizeit- und Erholungsfläche",1497
-2020,"Sport-, Freizeit- und Erholungsfläche",1517
-2019,"Sport-, Freizeit- und Erholungsfläche",1511
-2018,"Sport-, Freizeit- und Erholungsfläche",1515
-2017,"Sport-, Freizeit- und Erholungsfläche",1516
-2016,"Sport-, Freizeit- und Erholungsfläche",1528
+Year,Group,Value
+2015,A,1
+2015,B,3
+2015,,2
+2016,A,1
+2016,B,3
+2016,,2

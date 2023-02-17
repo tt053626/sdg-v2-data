@@ -12,7 +12,29 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "time series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "applications received",
+                "applications finally processed",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "outcome of the application process",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "admissible applications",
+                "rejected applications",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

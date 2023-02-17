@@ -16,20 +16,20 @@
             "title": "Year"
           },
           {
-            "name": "Group",
+            "name": "population",
             "type": "string",
             "constraints": {
               "enum": [
-                "A",
-                "B",
+                "population total",
+                "poorest 40 percent of the population",
                 ""
               ]
             },
-            "title": "Group"
+            "title": "population"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

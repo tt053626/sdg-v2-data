@@ -16,16 +16,18 @@
             "title": "Year"
           },
           {
-            "name": "Group",
+            "name": "area of law",
             "type": "string",
             "constraints": {
               "enum": [
-                "A",
-                "B",
+                "area 1: overarching legal frameworks and public life",
+                "area 2: violence against women",
+                "area 3: employment and economic benefit",
+                "area 4: marriage and family",
                 ""
               ]
             },
-            "title": "Group"
+            "title": "area of law"
           },
           {
             "name": "Value",

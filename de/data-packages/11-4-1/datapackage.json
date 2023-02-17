@@ -16,31 +16,16 @@
             "title": "Jahr"
           },
           {
-            "name": "data.maintransport",
+            "name": "timeseries",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.fuss",
-                "data.rad",
-                "data.miv",
-                "data.offis",
+                "government expenditure on protection of biodiversity and landscape (cofog division 5.4)",
+                "government expenditure on cultural services (cofog division 8.2)",
                 ""
               ]
             },
-            "title": "data.maintransport"
-          },
-          {
-            "name": "data.spatialtypes",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.binnen",
-                "data.quell",
-                "data.allewege",
-                ""
-              ]
-            },
-            "title": "data.spatialtypes"
+            "title": "timeseries"
           },
           {
             "name": "Value",

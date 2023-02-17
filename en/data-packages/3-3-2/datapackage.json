@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "mac-roman",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -16,21 +16,8 @@
             "title": "Year"
           },
           {
-            "name": "data.luftg",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Feinstaub (PM10)",
-                "Ozon Stundenwerte",
-                "Ozon 8-Stundenwerte (gleitend)",
-                ""
-              ]
-            },
-            "title": "Luftgüte"
-          },
-          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

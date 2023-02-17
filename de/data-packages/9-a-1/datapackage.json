@@ -12,8 +12,32 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "mn usd, constant prices (2019)",
+                "mn usd, constant prices (2020)",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "timeseries",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "oda and oof (gross disbursements) to infrastructure",
+                "oda (gross disbursements) to infrastructure",
+                ""
+              ]
+            },
+            "title": "timeseries"
           },
           {
             "name": "Value",

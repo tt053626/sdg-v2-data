@@ -12,7 +12,20 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "grade",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "in lower secondary education",
+                "in pre-primary education",
+                "in primary education",
+                "in upper secondary education",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

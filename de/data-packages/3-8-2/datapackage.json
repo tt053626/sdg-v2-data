@@ -12,8 +12,20 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "household expenditures on health",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "greater 10 %",
+                "greater 25 %",
+                ""
+              ]
+            },
+            "title": "household expenditures on health"
           },
           {
             "name": "Value",

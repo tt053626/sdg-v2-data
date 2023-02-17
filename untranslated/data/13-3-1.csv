@@ -1,45 +1,5 @@
-Year,data.esek,Value
-1990,data.tot,1800.92
-1990,data.gewerbe,322.03
-1990,data.verkehr,311.42
-1990,data.haushalte,1167.47
-2000,data.tot,1732.38
-2000,data.gewerbe,193.04
-2000,data.verkehr,397.29
-2000,data.haushalte,1142.05
-2010,data.tot,1584.04
-2010,data.gewerbe,122.11
-2010,data.verkehr,344.41
-2010,data.haushalte,1117.53
-2011,data.tot,1454.93
-2011,data.gewerbe,126.83
-2011,data.verkehr,345.41
-2011,data.haushalte,982.62
-2012,data.tot,1465.19
-2012,data.gewerbe,117.23
-2012,data.verkehr,348.17
-2012,data.haushalte,999.8
-2013,data.tot,1496.09
-2013,data.gewerbe,107.4
-2013,data.verkehr,358.71
-2013,data.haushalte,1030.04
-2014,data.tot,1409.88
-2014,data.gewerbe,95.23
-2014,data.verkehr,388.08
-2014,data.haushalte,926.57
-2015,data.tot,1366.89
-2015,data.gewerbe,93.05
-2015,data.verkehr,375.14
-2015,data.haushalte,898.7
-2016,data.tot,1417.81
-2016,data.gewerbe,88.38
-2016,data.verkehr,389.71
-2016,data.haushalte,939.64
-2017,data.tot,1364.71
-2017,data.gewerbe,83.46
-2017,data.verkehr,400.29
-2017,data.haushalte,880.97
-2018,data.tot,1331.98
-2018,data.gewerbe,83.64
-2018,data.verkehr,404.07
-2018,data.haushalte,844.27
+Year,area2,Value
+2017-2020,(a) national education policies,1.0
+2017-2020,(b) curricula,0.904
+2017-2020,(c) teacher education,0.95
+2017-2020,(d) student assessment,0.917

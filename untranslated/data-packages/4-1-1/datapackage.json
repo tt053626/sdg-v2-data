@@ -15,8 +15,30 @@
             "type": "integer"
           },
           {
+            "name": "education level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "b) at the end of primary education",
+                "c) at the end of lower secondary education",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "subject",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "reading",
+                "mathematics",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

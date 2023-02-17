@@ -15,20 +15,46 @@
             "type": "integer"
           },
           {
-            "name": "fLotte",
+            "name": "degree of urbanisation",
             "type": "string",
             "constraints": {
               "enum": [
-                "fLotte kommunal",
-                "fLotte nicht-kommunal",
-                "data.tot",
+                "cities",
+                "towns and suburbs",
+                "rural areas",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "female",
+                "male",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "overcrowding rate",
+                "housing cost overburden rate",
+                "population living in a dwelling with a leaking roof, damp walls, floors or foundation, or rot in window frames or floor",
+                "population having neither a bath, nor a shower in their dwelling",
+                "population not having indoor flushing toilet for the sole use of their household",
+                "population considering their dwelling as too dark",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

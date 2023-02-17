@@ -16,20 +16,33 @@
             "title": "Jahr"
           },
           {
-            "name": "Group",
+            "name": "age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "A",
-                "B",
+                "17 years and younger",
+                "18 to under 65 years",
+                "65 years and older",
                 ""
               ]
             },
-            "title": "Group"
+            "title": "age group"
+          },
+          {
+            "name": "sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "female",
+                "male",
+                ""
+              ]
+            },
+            "title": "sex"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

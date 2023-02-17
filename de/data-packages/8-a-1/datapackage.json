@@ -12,8 +12,20 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "timeseries",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "oda and oof (commitments) for aid for trade",
+                "oda and oof (gross disbursement) for aid for trade",
+                ""
+              ]
+            },
+            "title": "timeseries"
           },
           {
             "name": "Value",

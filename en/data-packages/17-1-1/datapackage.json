@@ -16,31 +16,8 @@
             "title": "Year"
           },
           {
-            "name": "data.partner",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Albinea",
-                "Cajamarca",
-                "East Norriton",
-                "Eskisehir",
-                "Izola",
-                "Köln",
-                "Mürzzuschlag",
-                "Odernheim",
-                "Olomouc",
-                "Subotica",
-                "Veszprem",
-                "Warszawa",
-                "Gesamt",
-                ""
-              ]
-            },
-            "title": "Partnerstädte"
-          },
-          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

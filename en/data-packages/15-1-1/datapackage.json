@@ -16,20 +16,8 @@
             "title": "Year"
           },
           {
-            "name": "data.antworten",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Ja",
-                "Nein",
-                ""
-              ]
-            },
-            "title": "Antworten"
-          },
-          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

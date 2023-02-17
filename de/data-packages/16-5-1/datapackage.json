@@ -12,8 +12,45 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "percentage",
+                "number",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "female",
+                "male",
+                "divers",
+                ""
+              ]
+            },
+            "title": "sex"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "population who had the impression that public officials are corruptible during their interactions with public agencies in the previous two years",
+                "private persons (donors) suspected in the context of corruption offences",
+                ""
+              ]
+            },
+            "title": "Series"
           },
           {
             "name": "Value",

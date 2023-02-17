@@ -16,19 +16,16 @@
             "title": "Jahr"
           },
           {
-            "name": "data.einewelt",
+            "name": "Group",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.stapa",
-                "data.gemeindep",
-                "data.schulp",
-                "data.zivip",
-                "data.weltl",
+                "A",
+                "B",
                 ""
               ]
             },
-            "title": "data.einewelt"
+            "title": "Group"
           },
           {
             "name": "Value",

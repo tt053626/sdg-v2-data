@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "euc_kr",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -16,19 +16,16 @@
             "title": "Year"
           },
           {
-            "name": "data.einewelt",
+            "name": "Group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Städtepartnerschaften",
-                "Gemeindeprojekte",
-                "Schulpartnerschaften",
-                "Zivilgesellschaftliche Projekte",
-                "Weltläden",
+                "A",
+                "B",
                 ""
               ]
             },
-            "title": "Eine-Welt-Projekte"
+            "title": "Group"
           },
           {
             "name": "Value",

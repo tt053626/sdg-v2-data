@@ -16,20 +16,32 @@
             "title": "Year"
           },
           {
-            "name": "Group",
+            "name": "age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "A",
-                "B",
+                "15 to under 25 years",
+                "25 to under 65 years",
                 ""
               ]
             },
-            "title": "Group"
+            "title": "age group"
+          },
+          {
+            "name": "sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "female",
+                "male",
+                ""
+              ]
+            },
+            "title": "sex"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

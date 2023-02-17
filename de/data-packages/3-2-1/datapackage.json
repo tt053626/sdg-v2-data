@@ -16,22 +16,20 @@
             "title": "Jahr"
           },
           {
-            "name": "data.noise",
+            "name": "age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.no",
-                "data.low",
-                "data.medium",
-                "data.high",
+                "11 months and younger",
+                "4 years and younger",
                 ""
               ]
             },
-            "title": "data.noise"
+            "title": "age group"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

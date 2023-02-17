@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "iso8859-1",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -16,22 +16,20 @@
             "title": "Year"
           },
           {
-            "name": "data.noise",
+            "name": "age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Keine Werte",
-                "Gering",
-                "Mittel",
-                "Hoch",
+                "11 months and younger",
+                "4 years and younger",
                 ""
               ]
             },
-            "title": "Relative Lärmbelastung"
+            "title": "age group"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

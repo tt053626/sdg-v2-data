@@ -15,22 +15,19 @@
             "type": "integer"
           },
           {
-            "name": "data.pow",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "<30 kW",
-                ">30 - 40 kW",
-                ">40 - 100 kW",
-                ">100 - 750 kW",
-                ">750 kW",
+                "megajoule per eur",
+                "2015 = 100",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

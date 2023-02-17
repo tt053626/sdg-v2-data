@@ -16,18 +16,6 @@
             "title": "Jahr"
           },
           {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Treptow-Köpenick",
-                "Berlin",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Value"

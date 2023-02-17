@@ -12,8 +12,46 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "kilogram per capita",
+                "percentage",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "timeseries",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "hazardous waste generated per capita",
+                "hazardous waste treated",
+                ""
+              ]
+            },
+            "title": "timeseries"
+          },
+          {
+            "name": "type of waste treatment",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "energy recovery",
+                "incineration",
+                "recovery other than energy recovery",
+                "deposit onto or into land and land treatment and release into water bodies",
+                ""
+              ]
+            },
+            "title": "type of waste treatment"
           },
           {
             "name": "Value",

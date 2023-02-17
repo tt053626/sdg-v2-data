@@ -12,7 +12,57 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "percentage",
+                "no unit",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "timeseries",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "working-age population",
+                "german bundestag (lower chamber)",
+                "bundesrat (upper chamber)",
+                "public service",
+                "judiciary",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "fields of work",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "political leadership and central administration, foreign affairs",
+                "police",
+                "education, science, research, cultural affairs",
+                "health, environment, sports and recreation",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "level of court",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "supreme/constitutional courts",
+                "higher-level courts",
+                "lower-level courts",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

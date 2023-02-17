@@ -12,8 +12,48 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "percentage",
+                "number",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "timeseries",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "level of risk of extinction (according to fao classification)",
+                "local livestock breeds (horses, cows, pigs, sheep and goats)",
+                "level of risk of extinction (according to national classification)",
+                ""
+              ]
+            },
+            "title": "timeseries"
+          },
+          {
+            "name": "level of risk of extinction",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "at risk",
+                "not at risk",
+                "under observation",
+                "breeding programs for preservation",
+                "rudiments remaining",
+                ""
+              ]
+            },
+            "title": "level of risk of extinction"
           },
           {
             "name": "Value",

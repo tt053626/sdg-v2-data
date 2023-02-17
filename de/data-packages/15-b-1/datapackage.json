@@ -12,8 +12,33 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "million eur",
+                "million usd, constant prices (2020)",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "timeseries",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "oda (commitments) for biodiversity",
+                "oda (gross disbursements) for biodiversity",
+                "oda (gross disbursements) to the forestry sector",
+                ""
+              ]
+            },
+            "title": "timeseries"
           },
           {
             "name": "Value",

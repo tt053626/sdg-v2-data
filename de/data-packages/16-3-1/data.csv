@@ -1,41 +1,5 @@
-Year,data.incident,Value
-2020,data.tot,329
-2019,data.tot,324
-2018,data.tot,448
-2017,data.tot,311
-2020,data.wahlk,3
-2019,data.wahlk,14
-2018,data.wahlk,0
-2017,data.wahlk,18
-2020,data.ableism,2
-2019,data.ableism,0
-2018,data.ableism,0
-2017,data.ableism,0
-2020,data.sozch,0
-2019,data.sozch,3
-2018,data.sozch,1
-2017,data.sozch,1
-2020,data.qhostility,8
-2019,data.qhostility,11
-2018,data.qhostility,7
-2017,data.qhostility,7
-2020,data.antisem,13
-2019,data.antisem,8
-2018,data.antisem,18
-2017,data.antisem,16
-2020,data.rightwing,25
-2019,data.rightwing,26
-2018,data.rightwing,65
-2017,data.rightwing,100
-2020,data.polgeg,42
-2019,data.polgeg,35
-2018,data.polgeg,70
-2017,data.polgeg,41
-2020,data.trivil,103
-2019,data.trivil,57
-2018,data.trivil,67
-2017,data.trivil,46
-2020,data.racism,132
-2019,data.racism,170
-2018,data.racism,220
-2017,data.racism,82
+Year,timeseries,Value
+2012,reporting rate for physical assault,32.9
+2017,reporting rate for physical assault,36.6
+2012,reporting rate for robbery,33.6
+2017,reporting rate for robbery,32.0

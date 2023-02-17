@@ -16,31 +16,16 @@
             "title": "Year"
           },
           {
-            "name": "data.maintransport",
+            "name": "timeseries",
             "type": "string",
             "constraints": {
               "enum": [
-                "Zu Fuß",
-                "Fahrrad",
-                "Motorisierter Individualverkehr",
-                "Öffentlicher Verkehr",
+                "government expenditure on protection of biodiversity and landscape (cofog division 5.4)",
+                "government expenditure on cultural services (cofog division 8.2)",
                 ""
               ]
             },
-            "title": "Hauptverkehrsmittel"
-          },
-          {
-            "name": "data.spatialtypes",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Binnenverkehr",
-                "Quell- u. Zielverkehr",
-                "Alle Wege",
-                ""
-              ]
-            },
-            "title": "Verkehrsströme"
+            "title": "timeseries"
           },
           {
             "name": "Value",

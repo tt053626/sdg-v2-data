@@ -16,24 +16,16 @@
             "title": "Jahr"
           },
           {
-            "name": "data.redlistcat",
+            "name": "Group",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.rlnull",
-                "data.rleins",
-                "data.rlzwei",
-                "data.rldrei",
-                "data.rlg",
-                "data.rlr",
-                "data.rlv",
-                "data.tlu",
-                "data.rld",
-                "data.rle",
+                "A",
+                "B",
                 ""
               ]
             },
-            "title": "data.redlistcat"
+            "title": "Group"
           },
           {
             "name": "Value",

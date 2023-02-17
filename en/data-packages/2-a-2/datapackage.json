@@ -12,8 +12,20 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "million eur",
+                "million usd, constant prices (2020)",
+                ""
+              ]
+            },
+            "title": "Units"
           },
           {
             "name": "Value",

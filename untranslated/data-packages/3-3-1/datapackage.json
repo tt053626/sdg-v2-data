@@ -15,20 +15,19 @@
             "type": "integer"
           },
           {
-            "name": "data.air",
+            "name": "sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.low",
-                "data.medium",
-                "data.high",
+                "female",
+                "male",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

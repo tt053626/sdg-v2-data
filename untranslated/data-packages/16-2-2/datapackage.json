@@ -12,7 +12,56 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "per 100,000 inhabitants",
+                "number",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "13 years and younger",
+                "14 to under 18 years",
+                "18 to under 21 years",
+                "21 to under 25 years",
+                "25 years and older",
+                "unknown age",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "female",
+                "male",
+                "unknown",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "form of exploitation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "labour exploitation",
+                "sexual exploitation",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

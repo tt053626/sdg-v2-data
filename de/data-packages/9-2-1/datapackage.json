@@ -16,20 +16,33 @@
             "title": "Jahr"
           },
           {
-            "name": "data.zug",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.indoor",
-                "data.outdoor",
+                "percentage",
+                "eur",
                 ""
               ]
             },
-            "title": "data.zug"
+            "title": "Units"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "manufacturing gross value added as a proportion of gdp",
+                "manufacturing gross value added as a proportion of total gross value added",
+                "manufacturing gross value added per capita",
+                ""
+              ]
+            },
+            "title": "Series"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

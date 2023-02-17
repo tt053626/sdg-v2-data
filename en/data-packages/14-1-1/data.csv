@@ -1,11 +1,7 @@
-Year,Gefährdungskategorien,Value
-2013,Ausgestorben oder verschollen,7
-2013,Vom Aussterben bedroht,0
-2013,Stark gefährdet,2
-2013,Gefährdet,4
-2013,Gefährdung unbekannten Ausmaßes,0
-2013,Extrem selten,1
-2013,Vorwarnliste,4
-2013,Ungefährdet,17
-2013,Daten unzureichend,0
-2013,Nicht bewertet,0
+Year,Group,Value
+2015,A,1
+2015,B,3
+2015,,2
+2016,A,1
+2016,B,3
+2016,,2

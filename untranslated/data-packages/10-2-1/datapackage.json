@@ -15,19 +15,31 @@
             "type": "integer"
           },
           {
-            "name": "Group",
+            "name": "age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "A",
-                "B",
+                "17 years and younger",
+                "18 to under 65 years",
+                "65 years and older",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "female",
+                "male",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

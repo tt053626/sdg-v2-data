@@ -16,21 +16,54 @@
             "title": "Jahr"
           },
           {
-            "name": "data.sex",
+            "name": "timeseries",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.w",
-                "data.m",
-                "data.tot",
+                "proportion of women in the german bundestag (lower chamber)",
+                "proportion of women in the bundesrat (upper chamber)",
+                "proportion of women in länder parliaments",
+                "proportion of women in councils of districts and district-free cities",
                 ""
               ]
             },
-            "title": "data.sex"
+            "title": "timeseries"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "germany",
+                "baden-württemberg",
+                "bavaria",
+                "berlin",
+                "brandenburg",
+                "bremen",
+                "hamburg",
+                "hesse",
+                "mecklenburg western pomerania",
+                "lower saxony",
+                "north rhine-westphalia",
+                "rhineland palatinate",
+                "saarland",
+                "saxony",
+                "saxony-anhalt",
+                "schleswig-holstein",
+                "thuringia",
+                ""
+              ]
+            },
+            "title": "region"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

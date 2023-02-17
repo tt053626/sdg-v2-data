@@ -16,21 +16,20 @@
             "title": "Jahr"
           },
           {
-            "name": "data.air",
+            "name": "sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.low",
-                "data.medium",
-                "data.high",
+                "female",
+                "male",
                 ""
               ]
             },
-            "title": "data.air"
+            "title": "sex"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

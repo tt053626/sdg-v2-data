@@ -15,19 +15,31 @@
             "type": "integer"
           },
           {
-            "name": "data.zug",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.indoor",
-                "data.outdoor",
+                "percentage",
+                "eur",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "manufacturing gross value added as a proportion of gdp",
+                "manufacturing gross value added as a proportion of total gross value added",
+                "manufacturing gross value added per capita",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

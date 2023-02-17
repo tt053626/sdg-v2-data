@@ -16,17 +16,19 @@
             "title": "Year"
           },
           {
-            "name": "Status",
+            "name": "timeseries",
             "type": "string",
             "constraints": {
               "enum": [
-                "Keine Bewerbung",
-                "In Bewerbung",
-                "Fairtrade-School zertifiziert",
+                "basel convention",
+                "montreal protocol",
+                "rotterdam convention",
+                "stockholm convention",
+                "minamata convention",
                 ""
               ]
             },
-            "title": "Status"
+            "title": "timeseries"
           },
           {
             "name": "Value",

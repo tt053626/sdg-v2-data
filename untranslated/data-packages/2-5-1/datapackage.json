@@ -12,7 +12,18 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "animal genetic resources",
+                "plant genetic resources",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

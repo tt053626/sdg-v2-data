@@ -16,28 +16,20 @@
             "title": "Jahr"
           },
           {
-            "name": "data.incident",
+            "name": "timeseries",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.tot",
-                "data.wahlk",
-                "data.ableism",
-                "data.sozch",
-                "data.qhostility",
-                "data.antisem",
-                "data.rightwing",
-                "data.polgeg",
-                "data.trivil",
-                "data.racism",
+                "reporting rate for physical assault",
+                "reporting rate for robbery",
                 ""
               ]
             },
-            "title": "data.incident"
+            "title": "timeseries"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

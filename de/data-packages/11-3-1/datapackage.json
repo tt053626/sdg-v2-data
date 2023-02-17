@@ -16,8 +16,35 @@
             "title": "Jahr"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "no unit",
+                "2015 = 100",
+                "percentage",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "timeseries",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ratio of land consumption rate to population growth rate (year-to-year)",
+                "proportion of settlement and transport areas to population",
+                "land consumption rate",
+                "population growth rate",
+                ""
+              ]
+            },
+            "title": "timeseries"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

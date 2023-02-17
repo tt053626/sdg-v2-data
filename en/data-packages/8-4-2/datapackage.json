@@ -12,8 +12,33 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "million tonnes",
+                "tonnes per capita",
+                "2015 = 100",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "domestic material consumption (dmc)",
+                "domestic material consumption per real gdp",
+                ""
+              ]
+            },
+            "title": "Series"
           },
           {
             "name": "Value",

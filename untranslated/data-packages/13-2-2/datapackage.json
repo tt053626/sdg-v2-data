@@ -15,20 +15,8 @@
             "type": "integer"
           },
           {
-            "name": "fLotte",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "fLotte kommunal",
-                "fLotte nicht-kommunal",
-                "data.tot",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

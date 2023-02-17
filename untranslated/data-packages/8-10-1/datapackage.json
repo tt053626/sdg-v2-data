@@ -12,7 +12,18 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "timeseries",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "branches of payment service providers",
+                "atms of national payment service providers",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

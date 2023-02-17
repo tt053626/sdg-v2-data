@@ -1,2 +1,5 @@
 From,To
-Ortsteil,District
+timeseries,region
+timeseries,disability status
+timeseries,age group
+timeseries,sex

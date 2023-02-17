@@ -15,19 +15,8 @@
             "type": "integer"
           },
           {
-            "name": "data.antworten",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.ja",
-                "data.nein",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

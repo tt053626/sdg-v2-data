@@ -16,6 +16,18 @@
             "title": "Year"
           },
           {
+            "name": "timeseries",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "child deliveries in hospitals",
+                "live births in total",
+                ""
+              ]
+            },
+            "title": "timeseries"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"

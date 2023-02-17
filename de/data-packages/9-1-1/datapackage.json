@@ -16,21 +16,8 @@
             "title": "Jahr"
           },
           {
-            "name": "data.standort",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.public",
-                "data.private",
-                "data.tot",
-                ""
-              ]
-            },
-            "title": "data.standort"
-          },
-          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

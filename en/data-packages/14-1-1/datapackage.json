@@ -16,24 +16,16 @@
             "title": "Year"
           },
           {
-            "name": "data.redlistcat",
+            "name": "Group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Ausgestorben oder verschollen",
-                "Vom Aussterben bedroht",
-                "Stark gefährdet",
-                "Gefährdet",
-                "Gefährdung unbekannten Ausmaßes",
-                "Extrem selten",
-                "Vorwarnliste",
-                "Ungefährdet",
-                "Daten unzureichend",
-                "Nicht bewertet",
+                "A",
+                "B",
                 ""
               ]
             },
-            "title": "Gefährdungskategorien"
+            "title": "Group"
           },
           {
             "name": "Value",

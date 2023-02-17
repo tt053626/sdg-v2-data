@@ -15,19 +15,31 @@
             "type": "integer"
           },
           {
-            "name": "Status",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.zertFG",
-                "data.zertK",
+                "million tonnes",
+                "tonnes per capita",
+                "2015 = 100",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "domestic material consumption (dmc)",
+                "domestic material consumption per real gdp",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

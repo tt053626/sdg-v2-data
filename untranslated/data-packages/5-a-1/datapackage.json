@@ -12,7 +12,30 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "timeseries",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "owned and leased agricultural land",
+                "female owners of agricultural holdings with the legal form of a sole proprietorship",
+                "agricultural holdings with the legal form of a sole proprietorship",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "ownership",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "property",
+                "leasehold",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

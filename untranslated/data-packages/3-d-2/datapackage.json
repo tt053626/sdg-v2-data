@@ -12,7 +12,18 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "pathogens and resistance",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "escherichia coli, 3gcr",
+                "staphylococcus aureus, mr",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

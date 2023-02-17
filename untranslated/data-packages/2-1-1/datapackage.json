@@ -15,46 +15,35 @@
             "type": "integer"
           },
           {
-            "name": "Ortsteil",
+            "name": "percentiles",
             "type": "string",
             "constraints": {
               "enum": [
-                "Adlershof",
-                "Altglienicke",
-                "Alt-Treptow",
-                "Baumschulenweg",
-                "Bohnsdorf",
-                "Friedrichshagen",
-                "Gruenau",
-                "Johannisthal",
-                "Koepenick",
-                "Mueggelheim",
-                "Niederschoeneweide",
-                "Oberschoeneweide",
-                "Plaenterwald",
-                "Rahnsdorf",
-                "Schmoeckwitz",
+                "p5",
+                "p10",
+                "p25",
+                "p50",
+                "p75",
+                "p90",
+                "p95",
                 ""
               ]
             }
           },
           {
-            "name": "District",
+            "name": "sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Treptow-Koepenick",
+                "female",
+                "male",
                 ""
               ]
             }
-          },
-          {
-            "name": "GeoCode",
-            "type": "string"
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

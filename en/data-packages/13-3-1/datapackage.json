@@ -12,22 +12,22 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "string",
             "title": "Year"
           },
           {
-            "name": "data.esek",
+            "name": "area2",
             "type": "string",
             "constraints": {
               "enum": [
-                "Gesamt",
-                "Verarbeitendes Gewerbe",
-                "Verkehr",
-                "Haushalte, Gewerbe, Handel und Dienstleistungen, übrige Verbraucher",
+                "(a) national education policies",
+                "(b) curricula",
+                "(c) teacher education",
+                "(d) student assessment",
                 ""
               ]
             },
-            "title": "Emittentensektoren"
+            "title": "area2"
           },
           {
             "name": "Value",

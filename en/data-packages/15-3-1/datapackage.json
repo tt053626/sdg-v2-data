@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "iso8859-9",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -16,21 +16,20 @@
             "title": "Year"
           },
           {
-            "name": "data.area",
+            "name": "Group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Naturschutzgebiete",
-                "Landschaftsschutzgebiete",
-                "Gesamt",
+                "A",
+                "B",
                 ""
               ]
             },
-            "title": "Fläche"
+            "title": "Group"
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

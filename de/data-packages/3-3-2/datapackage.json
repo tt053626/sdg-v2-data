@@ -16,21 +16,8 @@
             "title": "Jahr"
           },
           {
-            "name": "data.luftg",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.pm",
-                "data.ozonst",
-                "data.ozonacht",
-                ""
-              ]
-            },
-            "title": "data.luftg"
-          },
-          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

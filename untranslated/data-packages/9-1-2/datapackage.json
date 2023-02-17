@@ -15,8 +15,45 @@
             "type": "integer"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "million passenger-kilometre",
+                "million tonne-kilometres",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "mode of transport",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "road transport",
+                "rail transport",
+                "air transport",
+                "motorised private transport",
+                "inland waterway transport",
+                "pipelines: crude oil",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "passenger transport",
+                "freight transport",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

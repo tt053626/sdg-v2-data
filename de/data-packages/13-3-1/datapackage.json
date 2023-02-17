@@ -12,22 +12,22 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "string",
             "title": "Jahr"
           },
           {
-            "name": "data.esek",
+            "name": "area2",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.tot",
-                "data.gewerbe",
-                "data.verkehr",
-                "data.haushalte",
+                "(a) national education policies",
+                "(b) curricula",
+                "(c) teacher education",
+                "(d) student assessment",
                 ""
               ]
             },
-            "title": "data.esek"
+            "title": "area2"
           },
           {
             "name": "Value",

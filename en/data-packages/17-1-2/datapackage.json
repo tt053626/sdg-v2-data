@@ -12,8 +12,20 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "timeseries",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "proportion of domestic expenditures funded by national taxes",
+                "proportion of domestic expenditures funded by national taxes and insurance contributions",
+                ""
+              ]
+            },
+            "title": "timeseries"
           },
           {
             "name": "Value",

@@ -16,34 +16,16 @@
             "title": "Jahr"
           },
           {
-            "name": "data.bezirk",
+            "name": "Group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Adlershof",
-                "Allende-Viertel",
-                "Altglienicke",
-                "Altstadt Köpenick",
-                "Alt-Treptow",
-                "Baumschulenweg",
-                "Bohnsdorf",
-                "Dammvorstadt",
-                "Friedrichshagen",
-                "Grünau",
-                "Johannisthal",
-                "Köllnische Vorstadt und Spindlersfeld",
-                "Köpenick Nord",
-                "Köpenick Süd",
-                "Müggelheim",
-                "Niederschöneweide",
-                "Oberschöneweide",
-                "Plänterwald",
-                "Rahnsdorf",
-                "Schmöckwitz",
+                "A",
+                "B",
                 ""
               ]
             },
-            "title": "data.bezirk"
+            "title": "Group"
           },
           {
             "name": "Value",

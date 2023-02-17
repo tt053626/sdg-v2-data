@@ -12,8 +12,20 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "age of mother",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "10 to under 15 years",
+                "15 to under 20 years",
+                ""
+              ]
+            },
+            "title": "age of mother"
           },
           {
             "name": "Value",

@@ -15,6 +15,17 @@
             "type": "integer"
           },
           {
+            "name": "timeseries",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "population covered by health insurance",
+                "unemployed persons with unemployment benefits",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }

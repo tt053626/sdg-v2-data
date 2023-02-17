@@ -15,15 +15,12 @@
             "type": "integer"
           },
           {
-            "name": "data.gruen",
+            "name": "Group",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.erhol",
-                "data.kleing",
-                "data.friedh",
-                "data.strgr",
-                "data.sumgr",
+                "A",
+                "B",
                 ""
               ]
             }

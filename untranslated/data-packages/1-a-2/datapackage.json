@@ -12,7 +12,19 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "timeseries",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "government expenditure on health",
+                "government expenditure on education",
+                "government expenditure on social protection",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

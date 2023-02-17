@@ -12,8 +12,45 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "type of disease",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "a) acute respiratory infections",
+                "b) diarrhoea",
+                "c) intestinal nematode infections",
+                "d) protein-energy malnutrition",
+                ""
+              ]
+            },
+            "title": "type of disease"
+          },
+          {
+            "name": "sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "male",
+                "female",
+                ""
+              ]
+            },
+            "title": "sex"
+          },
+          {
+            "name": "age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "4 years and younger",
+                ""
+              ]
+            },
+            "title": "age group"
           },
           {
             "name": "Value",

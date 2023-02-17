@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "mac-roman",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -16,21 +16,33 @@
             "title": "Year"
           },
           {
-            "name": "data.group",
+            "name": "age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Repair Cafes",
-                "Gemeinschaftswerkstätten",
-                "ReUse Shops",
+                "17 years and younger",
+                "18 to under 65 years",
+                "65 years and older",
                 ""
               ]
             },
-            "title": "Gruppe"
+            "title": "age group"
+          },
+          {
+            "name": "sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "female",
+                "male",
+                ""
+              ]
+            },
+            "title": "sex"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

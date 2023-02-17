@@ -12,8 +12,32 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "million eur",
+                "million usd, constant prices (2020)",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "timeseries",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "oda (gross disbursements) for water and sanitation",
+                "oda (gross disbursements) for other related purposes",
+                ""
+              ]
+            },
+            "title": "timeseries"
           },
           {
             "name": "Value",

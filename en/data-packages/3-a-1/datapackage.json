@@ -12,8 +12,32 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "timeseries",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "current tobacco use among persons aged 15 years and older",
+                "current tobacco use among persons aged 15 years and older (age-standardised to who standard population)",
+                ""
+              ]
+            },
+            "title": "timeseries"
+          },
+          {
+            "name": "sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "female",
+                "male",
+                ""
+              ]
+            },
+            "title": "sex"
           },
           {
             "name": "Value",

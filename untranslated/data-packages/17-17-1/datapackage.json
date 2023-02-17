@@ -12,7 +12,29 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "million eur",
+                "million usd, constant prices (2020)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "oda (commitments) to public-private partnerships (ppp) for infrastructure",
+                "oda (gross disbursements) to public-private partnerships (ppp) for infrastructure",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

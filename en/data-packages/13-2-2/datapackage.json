@@ -16,21 +16,8 @@
             "title": "Year"
           },
           {
-            "name": "fLotte",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "fLotte kommunal",
-                "fLotte nicht-kommunal",
-                "Gesamt",
-                ""
-              ]
-            },
-            "title": "fLotte"
-          },
-          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

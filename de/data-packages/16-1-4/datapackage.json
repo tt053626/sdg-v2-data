@@ -12,8 +12,34 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "feelings of insecurity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "very safe",
+                "safe",
+                "unsafe",
+                "very unsafe",
+                ""
+              ]
+            },
+            "title": "feelings of insecurity"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "feeling of (in)security of the population in its neighbourhood (at night)",
+                "population not living in an area with crime, violence or vandalism",
+                ""
+              ]
+            },
+            "title": "Series"
           },
           {
             "name": "Value",

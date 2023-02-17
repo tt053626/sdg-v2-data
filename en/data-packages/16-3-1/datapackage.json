@@ -16,28 +16,20 @@
             "title": "Year"
           },
           {
-            "name": "data.incident",
+            "name": "timeseries",
             "type": "string",
             "constraints": {
               "enum": [
-                "Gesamt",
-                "Wahlkampf",
-                "Behindertenfeindlichkeit",
-                "Sozialchauvinismus",
-                "LGBTIQ*-Feindlichkeit",
-                "Antisemitismus",
-                "Rechte und extrem Rechte Selbstdarstellung",
-                "Politische Gegner*innen",
-                "NS-Verharmlosung und Verherrlichung",
-                "Rassismus",
+                "reporting rate for physical assault",
+                "reporting rate for robbery",
                 ""
               ]
             },
-            "title": "Art des Vorfalls"
+            "title": "timeseries"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

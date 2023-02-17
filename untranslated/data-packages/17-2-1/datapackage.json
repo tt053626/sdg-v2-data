@@ -15,8 +15,19 @@
             "type": "integer"
           },
           {
+            "name": "timeseries",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "proportion of oda (net disbursements) to gni",
+                "proportion of bilateral and imputed multilateral oda (net disbursements) for ldcs to the gross national income (gni)",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

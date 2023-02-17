@@ -15,14 +15,12 @@
             "type": "integer"
           },
           {
-            "name": "data.area",
+            "name": "Group",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.sied",
-                "data.wohn",
-                "data.indu",
-                "data.freiz",
+                "A",
+                "B",
                 ""
               ]
             }

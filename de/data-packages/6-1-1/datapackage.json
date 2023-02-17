@@ -16,20 +16,20 @@
             "title": "Jahr"
           },
           {
-            "name": "data.zustand",
+            "name": "timeseries",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.saprobie",
-                "data.trophie",
+                "population using safely managed drinking water services",
+                "population connected to the public water supply system",
                 ""
               ]
             },
-            "title": "data.zustand"
+            "title": "timeseries"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

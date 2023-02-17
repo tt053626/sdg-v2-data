@@ -15,13 +15,15 @@
             "type": "integer"
           },
           {
-            "name": "Status",
+            "name": "timeseries",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.keineB",
-                "data.inB",
-                "data.zert",
+                "basel convention",
+                "montreal protocol",
+                "rotterdam convention",
+                "stockholm convention",
+                "minamata convention",
                 ""
               ]
             }

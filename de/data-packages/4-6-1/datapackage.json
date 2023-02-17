@@ -12,8 +12,32 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "skill",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "a) literacy skills",
+                "b) numeracy skills",
+                ""
+              ]
+            },
+            "title": "skill"
+          },
+          {
+            "name": "level of proficiency",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "minimum requirement level i",
+                "minimum requirement level ii",
+                ""
+              ]
+            },
+            "title": "level of proficiency"
           },
           {
             "name": "Value",

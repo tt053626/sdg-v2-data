@@ -15,8 +15,20 @@
             "type": "integer"
           },
           {
+            "name": "indicator",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "sdg indicator 4.2.2",
+                "sdg-indicator 4.3.1 (youths)",
+                "sdg-indicator 4.3.1 (adults)",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }
