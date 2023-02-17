@@ -12,12 +12,27 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
+            "name": "data.pow",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "<30 kW",
+                ">30 - 40 kW",
+                ">40 - 100 kW",
+                ">100 - 750 kW",
+                ">750 kW",
+                ""
+              ]
+            },
+            "title": "data.pow"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

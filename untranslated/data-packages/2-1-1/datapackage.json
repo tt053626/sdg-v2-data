@@ -12,11 +12,49 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Ortsteil",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Adlershof",
+                "Altglienicke",
+                "Alt-Treptow",
+                "Baumschulenweg",
+                "Bohnsdorf",
+                "Friedrichshagen",
+                "Gruenau",
+                "Johannisthal",
+                "Koepenick",
+                "Mueggelheim",
+                "Niederschoeneweide",
+                "Oberschoeneweide",
+                "Plaenterwald",
+                "Rahnsdorf",
+                "Schmoeckwitz",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "District",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Treptow-Koepenick",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

@@ -12,8 +12,35 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "data.maintransport",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Zu Fuß",
+                "Fahrrad",
+                "Motorisierter Individualverkehr",
+                "Öffentlicher Verkehr",
+                ""
+              ]
+            },
+            "title": "Hauptverkehrsmittel"
+          },
+          {
+            "name": "data.spatialtypes",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Binnenverkehr",
+                "Quell- u. Zielverkehr",
+                "Alle Wege",
+                ""
+              ]
+            },
+            "title": "Verkehrsströme"
           },
           {
             "name": "Value",

@@ -12,12 +12,32 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Jahr"
           },
           {
+            "name": "data.redlistcat",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ausgestorben oder verschollen",
+                "Vom Aussterben bedroht",
+                "Stark gefährdet",
+                "Gefährdet",
+                "Gefährdung unbekannten Ausmaßes",
+                "Extrem selten",
+                "Vorwarnliste",
+                "Ungefährdet",
+                "Daten unzureichend",
+                "Nicht bewertet",
+                ""
+              ]
+            },
+            "title": "Gefährdungskategorien"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

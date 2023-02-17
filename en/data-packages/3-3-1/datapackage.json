@@ -12,12 +12,25 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
+            "name": "data.air",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.low",
+                "data.medium",
+                "data.high",
+                ""
+              ]
+            },
+            "title": "data.air"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

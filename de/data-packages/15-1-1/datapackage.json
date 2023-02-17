@@ -12,12 +12,24 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Jahr"
           },
           {
+            "name": "data.antworten",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ja",
+                "Nein",
+                ""
+              ]
+            },
+            "title": "Antworten"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

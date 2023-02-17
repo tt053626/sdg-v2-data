@@ -12,12 +12,27 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Jahr"
           },
           {
+            "name": "data.gruen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Grün- und Erholungsanlagen (inkl. Spielplätze)",
+                "Kleingärten",
+                "Friedhöfe",
+                "Straßengrün",
+                "Summe öffentliche Grünflächen",
+                ""
+              ]
+            },
+            "title": "Öffentliche Grünflächen"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

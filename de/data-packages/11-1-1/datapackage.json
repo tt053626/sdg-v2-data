@@ -12,12 +12,25 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Jahr"
           },
           {
+            "name": "fLotte",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "fLotte kommunal",
+                "fLotte nicht-kommunal",
+                "Gesamt",
+                ""
+              ]
+            },
+            "title": "fLotte"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

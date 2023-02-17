@@ -12,11 +12,25 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "data.gruen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.erhol",
+                "data.kleing",
+                "data.friedh",
+                "data.strgr",
+                "data.sumgr",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

@@ -12,7 +12,32 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "data.maintransport",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.fuss",
+                "data.rad",
+                "data.miv",
+                "data.offis",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.spatialtypes",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.binnen",
+                "data.quell",
+                "data.allewege",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

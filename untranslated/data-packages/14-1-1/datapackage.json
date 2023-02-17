@@ -12,11 +12,30 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "data.redlistcat",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.rlnull",
+                "data.rleins",
+                "data.rlzwei",
+                "data.rldrei",
+                "data.rlg",
+                "data.rlr",
+                "data.rlv",
+                "data.tlu",
+                "data.rld",
+                "data.rle",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

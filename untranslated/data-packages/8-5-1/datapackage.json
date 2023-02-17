@@ -12,7 +12,19 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "data.sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.w",
+                "data.m",
+                "Gender Pay Gap",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

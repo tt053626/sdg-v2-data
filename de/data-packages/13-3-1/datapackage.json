@@ -12,8 +12,22 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "data.esek",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Gesamt",
+                "Verarbeitendes Gewerbe",
+                "Verkehr",
+                "Haushalte, Gewerbe, Handel und Dienstleistungen, übrige Verbraucher",
+                ""
+              ]
+            },
+            "title": "Emittentensektoren"
           },
           {
             "name": "Value",

@@ -1,1 +1,4 @@
-Year,Value
+Year,data.air,Value
+2017,data.low,12
+2017,data.medium,21
+2017,data.high,1

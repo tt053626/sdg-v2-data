@@ -12,11 +12,23 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "data.standort",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.public",
+                "data.private",
+                "data.tot",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

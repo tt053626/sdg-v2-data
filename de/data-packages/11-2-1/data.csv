@@ -1,1 +1,16 @@
-Year,Value
+Year,Ortsteil,District,GeoCode,Value
+2021,Alt-Treptow,Treptow-Köpenick,re_ortsteil.0901,3
+2021,Plänterwald,Treptow-Köpenick,re_ortsteil.0902,1
+2021,Baumschulenweg,Treptow-Köpenick,re_ortsteil.0903,2
+2021,Johannisthal,Treptow-Köpenick,re_ortsteil.0904,0
+2021,Niederschöneweide,Treptow-Köpenick,re_ortsteil.0905,0
+2021,Altglienicke,Treptow-Köpenick,re_ortsteil.0906,0
+2021,Adlershof,Treptow-Köpenick,re_ortsteil.0907,0
+2021,Bohnsdorf,Treptow-Köpenick,re_ortsteil.0908,0
+2021,Oberschöneweide,Treptow-Köpenick,re_ortsteil.0909,2
+2021,Köpenick,Treptow-Köpenick,re_ortsteil.0910,2
+2021,Friedrichshagen,Treptow-Köpenick,re_ortsteil.0911,1
+2021,Rahnsdorf,Treptow-Köpenick,re_ortsteil.0912,0
+2021,Grünau,Treptow-Köpenick,re_ortsteil.0913,1
+2021,Müggelheim,Treptow-Köpenick,re_ortsteil.0914,0
+2021,Schmöckwitz,Treptow-Köpenick,re_ortsteil.0915,0

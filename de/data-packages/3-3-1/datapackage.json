@@ -12,12 +12,25 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Jahr"
           },
           {
+            "name": "data.air",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Gering",
+                "Mittel",
+                "Hoch",
+                ""
+              ]
+            },
+            "title": "Relative Luftbelastung"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

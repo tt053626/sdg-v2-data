@@ -12,8 +12,22 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "data.esek",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.tot",
+                "data.gewerbe",
+                "data.verkehr",
+                "data.haushalte",
+                ""
+              ]
+            },
+            "title": "data.esek"
           },
           {
             "name": "Value",

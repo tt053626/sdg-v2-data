@@ -12,12 +12,32 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Jahr"
           },
           {
+            "name": "data.incident",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Gesamt",
+                "Wahlkampf",
+                "Behindertenfeindlichkeit",
+                "Sozialchauvinismus",
+                "LGBTIQ*-Feindlichkeit",
+                "Antisemitismus",
+                "Rechte und extrem Rechte Selbstdarstellung",
+                "Politische Gegner*innen",
+                "NS-Verharmlosung und Verherrlichung",
+                "Rassismus",
+                ""
+              ]
+            },
+            "title": "Art des Vorfalls"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

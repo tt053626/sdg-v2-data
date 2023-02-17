@@ -12,12 +12,32 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
+            "name": "data.incident",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.tot",
+                "data.wahlk",
+                "data.ableism",
+                "data.sozch",
+                "data.qhostility",
+                "data.antisem",
+                "data.rightwing",
+                "data.polgeg",
+                "data.trivil",
+                "data.racism",
+                ""
+              ]
+            },
+            "title": "data.incident"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

@@ -12,7 +12,19 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "data.area",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.nat",
+                "data.protect",
+                "data.tot",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

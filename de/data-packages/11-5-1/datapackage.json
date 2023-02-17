@@ -12,12 +12,26 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Jahr"
           },
           {
+            "name": "data.area",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Siedlungsfläche",
+                "Wohnbaufläche",
+                "Industrie- und Gewerbefläche",
+                "Sport-, Freizeit- und Erholungsfläche",
+                ""
+              ]
+            },
+            "title": "Fläche"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

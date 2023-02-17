@@ -12,12 +12,25 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Jahr"
           },
           {
+            "name": "data.standort",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Öffentlicher Raum",
+                "Öffentlich zugänglich - auf privatem Grund",
+                "Gesamt",
+                ""
+              ]
+            },
+            "title": "Standort"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

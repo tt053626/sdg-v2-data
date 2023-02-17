@@ -12,12 +12,25 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
+            "name": "data.luftg",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.pm",
+                "data.ozonst",
+                "data.ozonacht",
+                ""
+              ]
+            },
+            "title": "data.luftg"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

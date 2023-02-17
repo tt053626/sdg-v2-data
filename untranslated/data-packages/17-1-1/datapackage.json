@@ -12,11 +12,33 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "data.partner",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Albinea",
+                "Cajamarca",
+                "East Norriton",
+                "Eskisehir",
+                "Izola",
+                "Köln",
+                "Mürzzuschlag",
+                "Odernheim",
+                "Olomouc",
+                "Subotica",
+                "Veszprem",
+                "Warszawa",
+                "data.tot",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

@@ -12,12 +12,26 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
+            "name": "data.noise",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.no",
+                "data.low",
+                "data.medium",
+                "data.high",
+                ""
+              ]
+            },
+            "title": "data.noise"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]
